@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_tOGLwER3Eey0h838tHFP-w" name="ActivityModel">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_tRtgcER3Eey0h838tHFP-w">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_3Rlp8ER3Eey0h838tHFP-w" name="Display Pass" node="_9kNekER3Eey0h838tHFP-w _tFcUIER5Eey0h838tHFP-w _4pQ8oER5Eey0h838tHFP-w _cRCGUER6Eey0h838tHFP-w _raL2wER6Eey0h838tHFP-w _GGuAQER6Eey0h838tHFP-w _axTHAER8Eey0h838tHFP-w _in7FAER8Eey0h838tHFP-w">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_tGOXQER5Eey0h838tHFP-w" target="_tFcUIER5Eey0h838tHFP-w" source="_9kNekER3Eey0h838tHFP-w"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_4pj3kER5Eey0h838tHFP-w" target="_4pQ8oER5Eey0h838tHFP-w" source="_9kNekER3Eey0h838tHFP-w"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_NeYxYER6Eey0h838tHFP-w" target="_GGuAQER6Eey0h838tHFP-w" source="_4pQ8oER5Eey0h838tHFP-w"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_cReyQER6Eey0h838tHFP-w" name="Yes" target="_cRCGUER6Eey0h838tHFP-w" source="_GGuAQER6Eey0h838tHFP-w"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_raoisER6Eey0h838tHFP-w" name="No" target="_raL2wER6Eey0h838tHFP-w" source="_GGuAQER6Eey0h838tHFP-w"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_axvL4ER8Eey0h838tHFP-w" target="_axTHAER8Eey0h838tHFP-w" source="_cRCGUER6Eey0h838tHFP-w"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ipiOkER8Eey0h838tHFP-w" target="_in7FAER8Eey0h838tHFP-w" source="_axTHAER8Eey0h838tHFP-w"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_9kNekER3Eey0h838tHFP-w" name="Start" outgoing="_tGOXQER5Eey0h838tHFP-w _4pj3kER5Eey0h838tHFP-w"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_tFcUIER5Eey0h838tHFP-w" name="OpaqueAction3" incoming="_tGOXQER5Eey0h838tHFP-w"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_4pQ8oER5Eey0h838tHFP-w" name="CrownPass Holder makes a 'Display Pass' request to the cloud server" incoming="_4pj3kER5Eey0h838tHFP-w" outgoing="_NeYxYER6Eey0h838tHFP-w"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_GGuAQER6Eey0h838tHFP-w" name="Is CrownPass holder registered?" incoming="_NeYxYER6Eey0h838tHFP-w" outgoing="_cReyQER6Eey0h838tHFP-w _raoisER6Eey0h838tHFP-w"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_cRCGUER6Eey0h838tHFP-w" name="Retrieve user data from database" incoming="_cReyQER6Eey0h838tHFP-w" outgoing="_axvL4ER8Eey0h838tHFP-w"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_raL2wER6Eey0h838tHFP-w" name="Direct user to 'Registration' system" incoming="_raoisER6Eey0h838tHFP-w"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_axTHAER8Eey0h838tHFP-w" name="Return data to user device" incoming="_axvL4ER8Eey0h838tHFP-w" outgoing="_ipiOkER8Eey0h838tHFP-w"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_in7FAER8Eey0h838tHFP-w" name="Finish" incoming="_ipiOkER8Eey0h838tHFP-w"/>
+  </packagedElement>
+</uml:Model>
