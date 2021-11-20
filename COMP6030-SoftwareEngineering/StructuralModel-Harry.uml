@@ -157,6 +157,16 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_XvhfQ0bFEey0h838tHFP-w" name="contactdetails" type="_93e7sER-Eey0h838tHFP-w" association="_XvhfQEbFEey0h838tHFP-w"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_XvhfREbFEey0h838tHFP-w" name="controlledarea" type="_se7lYESHEey0h838tHFP-w" association="_XvhfQEbFEey0h838tHFP-w"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_u1WSoEn3EeyzQ5mwk6lZBw" memberEnd="_u1Z9AEn3EeyzQ5mwk6lZBw _u1akEEn3EeyzQ5mwk6lZBw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_u1Yu4En3EeyzQ5mwk6lZBw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_u1Yu4Un3EeyzQ5mwk6lZBw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_u1Z9AEn3EeyzQ5mwk6lZBw" name="contactdetails" type="_93e7sER-Eey0h838tHFP-w" association="_u1WSoEn3EeyzQ5mwk6lZBw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ySK-0En3EeyzQ5mwk6lZBw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ySuYcEn3EeyzQ5mwk6lZBw" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_u1akEEn3EeyzQ5mwk6lZBw" name="areaowner" type="_kJLV0EbAEey0h838tHFP-w" association="_u1WSoEn3EeyzQ5mwk6lZBw"/>
+  </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_emItx0SAEey0h838tHFP-w">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_emItyESAEey0h838tHFP-w" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_x4EqgEn8EeyzQ5mwk6lZBw" name="ComponentDiagram">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_x5EwEEn8EeyzQ5mwk6lZBw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Model" xmi:id="_15mmQEn8EeyzQ5mwk6lZBw" name="CrownPass System">
+    <packagedElement xmi:type="uml:Component" xmi:id="_5t1F0En8EeyzQ5mwk6lZBw" name="Mobile Application"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_-I0DYEn8EeyzQ5mwk6lZBw" name="Web Server">
+      <packagedElement xmi:type="uml:Component" xmi:id="_JxfWsEn9EeyzQ5mwk6lZBw" name="CrownPass Holder Management"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_p4AVQEn_EeyzQ5mwk6lZBw" name="Statistics Engine"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_nNmIAEoAEeyzQ5mwk6lZBw" name="Notification System"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_ALMx4En9EeyzQ5mwk6lZBw" name="Database"/>
+  </packagedElement>
+</uml:Model>

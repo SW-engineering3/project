@@ -71,6 +71,6 @@
     <message xmi:type="uml:Message" xmi:id="_IZpedkbmEey0h838tHFP-w" name="Return First Name" messageSort="reply" receiveEvent="_IZpeeEbmEey0h838tHFP-w" sendEvent="_IZped0bmEey0h838tHFP-w"/>
     <message xmi:type="uml:Message" xmi:id="_doh3AEbmEey0h838tHFP-w" name="GetLastName()" receiveEvent="_doh3AkbmEey0h838tHFP-w" sendEvent="_doh3AUbmEey0h838tHFP-w"/>
     <message xmi:type="uml:Message" xmi:id="_dpoqQEbmEey0h838tHFP-w" name="Return Last Name" messageSort="reply" receiveEvent="_dpoqQkbmEey0h838tHFP-w" sendEvent="_dpoqQUbmEey0h838tHFP-w"/>
-    <message xmi:type="uml:Message" xmi:id="_-LvqkEbmEey0h838tHFP-w" name="BuildPass()" receiveEvent="_-LvqkkbmEey0h838tHFP-w" sendEvent="_-LvqkUbmEey0h838tHFP-w"/>
+    <message xmi:type="uml:Message" xmi:id="_-LvqkEbmEey0h838tHFP-w" name="BuildPass(Photo,QR,vState,iState,First,Last)" receiveEvent="_-LvqkkbmEey0h838tHFP-w" sendEvent="_-LvqkUbmEey0h838tHFP-w"/>
   </packagedElement>
 </uml:Model>

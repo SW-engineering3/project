@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="__w3x4EnyEeyzQ5mwk6lZBw" name="COMP6030-SoftwareEngineering">
+  <packagedElement xmi:type="uml:Model" xmi:id="_FbIwkEn0EeyzQ5mwk6lZBw" name="CrownPass Holder Management">
+    <packagedElement xmi:type="uml:Component" xmi:id="_XqAUwEn0EeyzQ5mwk6lZBw" name="Visit">
+      <packagedElement xmi:type="uml:Usage" xmi:id="_j_wJcEn0EeyzQ5mwk6lZBw" client="_XqAUwEn0EeyzQ5mwk6lZBw" supplier="_eMULMEn0EeyzQ5mwk6lZBw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_eMULMEn0EeyzQ5mwk6lZBw" name="CheckInAble"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_oUt-kEn0EeyzQ5mwk6lZBw" name="CrownPassHolder">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_r2jtoEn0EeyzQ5mwk6lZBw" client="_oUt-kEn0EeyzQ5mwk6lZBw" supplier="_eMULMEn0EeyzQ5mwk6lZBw" contract="_eMULMEn0EeyzQ5mwk6lZBw"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>

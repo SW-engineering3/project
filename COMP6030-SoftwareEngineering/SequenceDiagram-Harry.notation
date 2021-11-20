@@ -298,7 +298,7 @@
   </edges>
   <edges xmi:type="notation:Connector" xmi:id="_-L9tAEbmEey0h838tHFP-w" type="Message_SynchEdge" source="_c8DsMEbeEey0h838tHFP-w" target="_c8DsMEbeEey0h838tHFP-w">
     <children xmi:type="notation:DecorationNode" xmi:id="_-L9tA0bmEey0h838tHFP-w" type="Message_SynchNameLabel">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_-L9tBEbmEey0h838tHFP-w" x="8" y="-38"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_-L9tBEbmEey0h838tHFP-w" x="48" y="-78"/>
     </children>
     <children xmi:type="notation:DecorationNode" xmi:id="_-L9tBUbmEey0h838tHFP-w" type="Message_SynchStereotypeLabel">
       <layoutConstraint xmi:type="notation:Location" xmi:id="_-L9tBkbmEey0h838tHFP-w" x="1" y="-33"/>
