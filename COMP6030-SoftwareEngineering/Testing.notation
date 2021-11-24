@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_7p7esE00EeyQ8oo25dISog" type="PapyrusUMLDeploymentDiagram" name="Deployment Diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_9SHkgE00EeyQ8oo25dISog" type="Artifact_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_9SQucE00EeyQ8oo25dISog" type="Artifact_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_9SQucU00EeyQ8oo25dISog" type="Artifact_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_9SRVgE00EeyQ8oo25dISog" x="25"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_9SSjoE00EeyQ8oo25dISog" type="Artifact_NestedArtifactCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_9SSjoU00EeyQ8oo25dISog"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9SSjok00EeyQ8oo25dISog"/>
+    </children>
+    <element xmi:type="uml:Artifact" href="Testing.uml#_9Rui8E00EeyQ8oo25dISog"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9SHkgU00EeyQ8oo25dISog" x="80" y="80" width="281" height="161"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_7p7esU00EeyQ8oo25dISog" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_7p7esk00EeyQ8oo25dISog"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_7p7es000EeyQ8oo25dISog" diagramKindId="org.eclipse.papyrus.uml.diagram.deployment">
+    <owner xmi:type="uml:Model" href="Testing.uml#_7n9IwE00EeyQ8oo25dISog"/>
+  </styles>
+  <element xmi:type="uml:Model" href="Testing.uml#_7n9IwE00EeyQ8oo25dISog"/>
+</notation:Diagram>
