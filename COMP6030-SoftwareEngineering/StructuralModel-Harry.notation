@@ -477,7 +477,7 @@
     </children>
     <children xmi:type="notation:DecorationNode" xmi:id="_EPgrCUa_Eey0h838tHFP-w" type="Association_SourceRoleLabel">
       <styles xmi:type="notation:BooleanValueStyle" xmi:id="_3Ed7IEbAEey0h838tHFP-w" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_EPgrCka_Eey0h838tHFP-w" x="-48" y="28"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_EPgrCka_Eey0h838tHFP-w" x="-68" y="28"/>
     </children>
     <children xmi:type="notation:DecorationNode" xmi:id="_EPgrC0a_Eey0h838tHFP-w" type="Association_SourceMultiplicityLabel">
       <styles xmi:type="notation:BooleanValueStyle" xmi:id="_3Ew2EEbAEey0h838tHFP-w" name="IS_UPDATED_POSITION" booleanValue="true"/>

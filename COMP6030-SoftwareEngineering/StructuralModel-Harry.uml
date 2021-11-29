@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_THdLUER9Eey0h838tHFP-w" name="StructureDiagram">
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_THdLUER9Eey0h838tHFP-w" name="StructureDiagram" visibility="package">
   <packageImport xmi:type="uml:PackageImport" xmi:id="_TH8TgER9Eey0h838tHFP-w">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
@@ -50,6 +50,7 @@
     </ownedAttribute>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_hQ4YkESHEey0h838tHFP-w" name="ControlledArea" type="_se7lYESHEey0h838tHFP-w" isUnique="false"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_L7jL0EbOEey0h838tHFP-w" name="VisitID" type="_0U9KoESAEey0h838tHFP-w"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Ba5uA0bCEey0h838tHFP-w" name="controlledarea" type="_se7lYESHEey0h838tHFP-w" association="_Ba5uAEbCEey0h838tHFP-w"/>
   </packagedElement>
   <packagedElement xmi:type="uml:DataType" xmi:id="_0U9KoESAEey0h838tHFP-w" name="uint64"/>
   <packagedElement xmi:type="uml:DataType" xmi:id="_ISFAYESBEey0h838tHFP-w" name="string"/>
@@ -124,7 +125,6 @@
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ba5uAUbCEey0h838tHFP-w" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Ba5uAkbCEey0h838tHFP-w" key="nature" value="UML_Nature"/>
     </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_Ba5uA0bCEey0h838tHFP-w" name="controlledarea" type="_se7lYESHEey0h838tHFP-w" association="_Ba5uAEbCEey0h838tHFP-w"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_Ba5uBEbCEey0h838tHFP-w" name="visit" type="_XkyAUER_Eey0h838tHFP-w" association="_Ba5uAEbCEey0h838tHFP-w">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Oyxp4EbJEey0h838tHFP-w"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OzNuwEbJEey0h838tHFP-w" value="*"/>
