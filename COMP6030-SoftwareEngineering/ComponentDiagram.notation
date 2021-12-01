@@ -145,7 +145,7 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MxyO2FEXEeykwq5R-H2-iA"/>
         </children>
         <element xmi:type="uml:Component" href="ComponentDiagram.uml#_MxyO0FEXEeykwq5R-H2-iA"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MxyO0lEXEeykwq5R-H2-iA" x="1154" y="252" width="260" height="60"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MxyO0lEXEeykwq5R-H2-iA" x="1134" y="252" width="260" height="60"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_xfKyMVEWEeykwq5R-H2-iA" type="Component_PackagedElementShape">
         <children xmi:type="notation:DecorationNode" xmi:id="_xfKyM1EWEeykwq5R-H2-iA" type="Component_NameLabel"/>
