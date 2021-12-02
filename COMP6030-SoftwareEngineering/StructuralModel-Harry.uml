@@ -37,6 +37,8 @@
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kiCKEFKaEeykwq5R-H2-iA"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ki3QgFKaEeykwq5R-H2-iA" value="*"/>
     </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_knuTkFNkEeykwq5R-H2-iA" name="Username" type="_ISFAYESBEey0h838tHFP-w"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_mi5m0FNkEeykwq5R-H2-iA" name="Password" type="_ISFAYESBEey0h838tHFP-w"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_DDdGkEbKEey0h838tHFP-w" name="checkIn">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_4B-4cFKWEeykwq5R-H2-iA" type="_se7lYESHEey0h838tHFP-w"/>
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_ev3egFKXEeykwq5R-H2-iA" type="_XkyAUER_Eey0h838tHFP-w" direction="return"/>

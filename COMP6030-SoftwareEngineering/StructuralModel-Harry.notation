@@ -57,6 +57,14 @@
         <element xmi:type="uml:Property" href="StructuralModel-Harry.uml#_gec_4FKaEeykwq5R-H2-iA"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_gfzqwVKaEeykwq5R-H2-iA"/>
       </children>
+      <children xmi:type="notation:Shape" xmi:id="_kpMTMFNkEeykwq5R-H2-iA" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="StructuralModel-Harry.uml#_knuTkFNkEeykwq5R-H2-iA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_kpMTMVNkEeykwq5R-H2-iA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_mjkVMFNkEeykwq5R-H2-iA" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="StructuralModel-Harry.uml#_mi5m0FNkEeykwq5R-H2-iA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_mjkVMVNkEeykwq5R-H2-iA"/>
+      </children>
       <styles xmi:type="notation:TitleStyle" xmi:id="_-keaBER9Eey0h838tHFP-w"/>
       <styles xmi:type="notation:SortingStyle" xmi:id="_-keaBUR9Eey0h838tHFP-w"/>
       <styles xmi:type="notation:FilteringStyle" xmi:id="_-keaBkR9Eey0h838tHFP-w"/>
