@@ -3,14 +3,11 @@
   <packageImport xmi:type="uml:PackageImport" xmi:id="_tRtgcER3Eey0h838tHFP-w">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
-  <packagedElement xmi:type="uml:Activity" xmi:id="_3Rlp8ER3Eey0h838tHFP-w" name="Display Pass" node="_9kNekER3Eey0h838tHFP-w _4pQ8oER5Eey0h838tHFP-w _c1yC4ElAEeyjAZX_zS-afA _htkbwElBEeyjAZX_zS-afA _Icx3gElCEeyjAZX_zS-afA _XgDpcElCEeyjAZX_zS-afA _0HwCoElCEeyjAZX_zS-afA _RymakElGEeyjAZX_zS-afA _asX3oElGEeyjAZX_zS-afA _rajFIElGEeyjAZX_zS-afA _37PlkElGEeyjAZX_zS-afA _ms-GQElHEeyjAZX_zS-afA _0KI2AElHEeyjAZX_zS-afA _5b0yEElHEeyjAZX_zS-afA _tB814ElIEeyjAZX_zS-afA _8mcpEElJEeyjAZX_zS-afA _VfSK4ElKEeyjAZX_zS-afA _i_5QMElKEeyjAZX_zS-afA _e3_-gFHhEeykwq5R-H2-iA _2B_G8FHjEeykwq5R-H2-iA _jODRYFHkEeykwq5R-H2-iA _e-RBwFHlEeykwq5R-H2-iA _tsa4QFHlEeykwq5R-H2-iA" group="_3UHR8Ek3EeyjAZX_zS-afA _VKDm8Ek4EeyjAZX_zS-afA _Rh0-MElHEeyjAZX_zS-afA">
+  <packagedElement xmi:type="uml:Activity" xmi:id="_3Rlp8ER3Eey0h838tHFP-w" name="Display Pass" node="_9kNekER3Eey0h838tHFP-w _4pQ8oER5Eey0h838tHFP-w _c1yC4ElAEeyjAZX_zS-afA _htkbwElBEeyjAZX_zS-afA _Icx3gElCEeyjAZX_zS-afA _XgDpcElCEeyjAZX_zS-afA _0HwCoElCEeyjAZX_zS-afA _RymakElGEeyjAZX_zS-afA _asX3oElGEeyjAZX_zS-afA _rajFIElGEeyjAZX_zS-afA _37PlkElGEeyjAZX_zS-afA _ms-GQElHEeyjAZX_zS-afA _0KI2AElHEeyjAZX_zS-afA _5b0yEElHEeyjAZX_zS-afA _tB814ElIEeyjAZX_zS-afA _8mcpEElJEeyjAZX_zS-afA _VfSK4ElKEeyjAZX_zS-afA _i_5QMElKEeyjAZX_zS-afA _e3_-gFHhEeykwq5R-H2-iA _2B_G8FHjEeykwq5R-H2-iA _jODRYFHkEeykwq5R-H2-iA _e-RBwFHlEeykwq5R-H2-iA _-WdjoFNZEeykwq5R-H2-iA _tsa4QFHlEeykwq5R-H2-iA" group="_3UHR8Ek3EeyjAZX_zS-afA _VKDm8Ek4EeyjAZX_zS-afA _Rh0-MElHEeyjAZX_zS-afA">
     <edge xmi:type="uml:ControlFlow" xmi:id="_uh0xYElBEeyjAZX_zS-afA" inPartition="_3UHR8Ek3EeyjAZX_zS-afA" target="_4pQ8oER5Eey0h838tHFP-w" source="_htkbwElBEeyjAZX_zS-afA"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_3FSAMElBEeyjAZX_zS-afA" target="_htkbwElBEeyjAZX_zS-afA" source="_9kNekER3Eey0h838tHFP-w"/>
-    <edge xmi:type="uml:ControlFlow" xmi:id="_IduSsElCEeyjAZX_zS-afA" inPartition="_VKDm8Ek4EeyjAZX_zS-afA" target="_Icx3gElCEeyjAZX_zS-afA" source="_c1yC4ElAEeyjAZX_zS-afA"/>
-    <edge xmi:type="uml:ControlFlow" xmi:id="_4pqHkElCEeyjAZX_zS-afA" name="No" inPartition="_VKDm8Ek4EeyjAZX_zS-afA" target="_0HwCoElCEeyjAZX_zS-afA" source="_Icx3gElCEeyjAZX_zS-afA"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_m-NcsElGEeyjAZX_zS-afA" inPartition="_3UHR8Ek3EeyjAZX_zS-afA" target="_asX3oElGEeyjAZX_zS-afA" source="_RymakElGEeyjAZX_zS-afA"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_rbs7sElGEeyjAZX_zS-afA" target="_rajFIElGEeyjAZX_zS-afA" source="_asX3oElGEeyjAZX_zS-afA"/>
-    <edge xmi:type="uml:ControlFlow" xmi:id="_0LCN4ElHEeyjAZX_zS-afA" inPartition="_Rh0-MElHEeyjAZX_zS-afA" target="_0KI2AElHEeyjAZX_zS-afA" source="_ms-GQElHEeyjAZX_zS-afA"/>
     <edge xmi:type="uml:ObjectFlow" xmi:id="_5cxNQElHEeyjAZX_zS-afA" inPartition="_Rh0-MElHEeyjAZX_zS-afA" target="_5cxNQ0lHEeyjAZX_zS-afA" source="_5cxNQUlHEeyjAZX_zS-afA">
       <guard xmi:type="uml:LiteralBoolean" xmi:id="_5c6-QElHEeyjAZX_zS-afA" value="true"/>
       <weight xmi:type="uml:LiteralInteger" xmi:id="_5c6-QUlHEeyjAZX_zS-afA" value="1"/>
@@ -33,29 +30,37 @@
     <edge xmi:type="uml:ControlFlow" xmi:id="_ScpwwFHkEeykwq5R-H2-iA" target="_2B_G8FHjEeykwq5R-H2-iA" source="_VgY-IUlKEeyjAZX_zS-afA"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_upBf4FHkEeykwq5R-H2-iA" target="_RzGJ00lGEeyjAZX_zS-afA" source="_jODRYFHkEeykwq5R-H2-iA"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_yIXUkFHkEeykwq5R-H2-iA" target="_jODRYFHkEeykwq5R-H2-iA" source="_RzGJ0UlGEeyjAZX_zS-afA"/>
-    <edge xmi:type="uml:ControlFlow" xmi:id="_JgajoFHmEeykwq5R-H2-iA" target="_tsa4QFHlEeykwq5R-H2-iA" source="_XgDpcElCEeyjAZX_zS-afA"/>
-    <edge xmi:type="uml:ControlFlow" xmi:id="_MkqXwFHmEeykwq5R-H2-iA" target="_ms-GQElHEeyjAZX_zS-afA" source="_tsa4QFHlEeykwq5R-H2-iA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_JgajoFHmEeykwq5R-H2-iA" target="_tsa4QFHlEeykwq5R-H2-iA" source="_WUkikFNaEeykwq5R-H2-iA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_MkqXwFHmEeykwq5R-H2-iA" target="_ejr5EFNaEeykwq5R-H2-iA" source="_tsa4QFHlEeykwq5R-H2-iA"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_Wd674FHmEeykwq5R-H2-iA" target="_e-RBwFHlEeykwq5R-H2-iA" source="_c2nJUElAEeyjAZX_zS-afA"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_YVhWsFHmEeykwq5R-H2-iA" target="_c2oXcUlAEeyjAZX_zS-afA" source="_e-RBwFHlEeykwq5R-H2-iA"/>
-    <edge xmi:type="uml:ControlFlow" xmi:id="_CRX4IFHoEeykwq5R-H2-iA" name="Yes" inPartition="_VKDm8Ek4EeyjAZX_zS-afA" target="_XgDpcElCEeyjAZX_zS-afA" source="_Icx3gElCEeyjAZX_zS-afA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_EM-rEFNaEeykwq5R-H2-iA" inPartition="_VKDm8Ek4EeyjAZX_zS-afA" target="_XgDpcElCEeyjAZX_zS-afA" source="_c1yC4ElAEeyjAZX_zS-afA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Fgx1QFNaEeykwq5R-H2-iA" inPartition="_Rh0-MElHEeyjAZX_zS-afA" target="_Icx3gElCEeyjAZX_zS-afA" source="_ms-GQElHEeyjAZX_zS-afA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Gk8oAFNaEeykwq5R-H2-iA" name="Yes" inPartition="_Rh0-MElHEeyjAZX_zS-afA" target="_0KI2AElHEeyjAZX_zS-afA" source="_Icx3gElCEeyjAZX_zS-afA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_HU7TcFNaEeykwq5R-H2-iA" name="No" inPartition="_Rh0-MElHEeyjAZX_zS-afA" target="_-WdjoFNZEeykwq5R-H2-iA" source="_Icx3gElCEeyjAZX_zS-afA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_KSU4sFNaEeykwq5R-H2-iA" target="_0HwCoElCEeyjAZX_zS-afA" source="_-WdjoFNZEeykwq5R-H2-iA"/>
     <group xmi:type="uml:ActivityPartition" xmi:id="_3UHR8Ek3EeyjAZX_zS-afA" name="User Device" node="_4pQ8oER5Eey0h838tHFP-w _htkbwElBEeyjAZX_zS-afA _RymakElGEeyjAZX_zS-afA _asX3oElGEeyjAZX_zS-afA _VfSK4ElKEeyjAZX_zS-afA" edge="_uh0xYElBEeyjAZX_zS-afA _m-NcsElGEeyjAZX_zS-afA"/>
-    <group xmi:type="uml:ActivityPartition" xmi:id="_VKDm8Ek4EeyjAZX_zS-afA" name="PassService" node="_c1yC4ElAEeyjAZX_zS-afA _Icx3gElCEeyjAZX_zS-afA _XgDpcElCEeyjAZX_zS-afA _0HwCoElCEeyjAZX_zS-afA _37PlkElGEeyjAZX_zS-afA _tB814ElIEeyjAZX_zS-afA _8mcpEElJEeyjAZX_zS-afA" edge="_IduSsElCEeyjAZX_zS-afA _4pqHkElCEeyjAZX_zS-afA _iS-VQElJEeyjAZX_zS-afA _Ky788ElKEeyjAZX_zS-afA _CRX4IFHoEeykwq5R-H2-iA"/>
-    <group xmi:type="uml:ActivityPartition" xmi:id="_Rh0-MElHEeyjAZX_zS-afA" name="Database" node="_ms-GQElHEeyjAZX_zS-afA _0KI2AElHEeyjAZX_zS-afA _5b0yEElHEeyjAZX_zS-afA" edge="_0LCN4ElHEeyjAZX_zS-afA _5cxNQElHEeyjAZX_zS-afA"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_VKDm8Ek4EeyjAZX_zS-afA" name="PassService" node="_c1yC4ElAEeyjAZX_zS-afA _XgDpcElCEeyjAZX_zS-afA _0HwCoElCEeyjAZX_zS-afA _37PlkElGEeyjAZX_zS-afA _tB814ElIEeyjAZX_zS-afA _8mcpEElJEeyjAZX_zS-afA _WUkikFNaEeykwq5R-H2-iA" edge="_iS-VQElJEeyjAZX_zS-afA _Ky788ElKEeyjAZX_zS-afA _EM-rEFNaEeykwq5R-H2-iA"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_Rh0-MElHEeyjAZX_zS-afA" name="Database" node="_ms-GQElHEeyjAZX_zS-afA _0KI2AElHEeyjAZX_zS-afA _5b0yEElHEeyjAZX_zS-afA _Icx3gElCEeyjAZX_zS-afA _-WdjoFNZEeykwq5R-H2-iA _ejr5EFNaEeykwq5R-H2-iA" edge="_5cxNQElHEeyjAZX_zS-afA _Fgx1QFNaEeykwq5R-H2-iA _Gk8oAFNaEeykwq5R-H2-iA _HU7TcFNaEeykwq5R-H2-iA"/>
     <node xmi:type="uml:InitialNode" xmi:id="_9kNekER3Eey0h838tHFP-w" name="Start" outgoing="_3FSAMElBEeyjAZX_zS-afA"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_4pQ8oER5Eey0h838tHFP-w" name="Send HTTP GET Request" incoming="_uh0xYElBEeyjAZX_zS-afA" inPartition="_3UHR8Ek3EeyjAZX_zS-afA">
       <outputValue xmi:type="uml:OutputPin" xmi:id="_c2nJUElAEeyjAZX_zS-afA" outgoing="_Wd674FHmEeykwq5R-H2-iA">
         <upperBound xmi:type="uml:LiteralInteger" xmi:id="_c2oXcElAEeyjAZX_zS-afA" value="1"/>
       </outputValue>
     </node>
-    <node xmi:type="uml:OpaqueAction" xmi:id="_c1yC4ElAEeyjAZX_zS-afA" name="Receive HTTP request" outgoing="_IduSsElCEeyjAZX_zS-afA" inPartition="_VKDm8Ek4EeyjAZX_zS-afA">
+    <node xmi:type="uml:OpaqueAction" xmi:id="_c1yC4ElAEeyjAZX_zS-afA" name="Receive HTTP request" outgoing="_EM-rEFNaEeykwq5R-H2-iA" inPartition="_VKDm8Ek4EeyjAZX_zS-afA">
       <inputValue xmi:type="uml:InputPin" xmi:id="_c2oXcUlAEeyjAZX_zS-afA" incoming="_YVhWsFHmEeykwq5R-H2-iA">
         <upperBound xmi:type="uml:LiteralInteger" xmi:id="_c2plkElAEeyjAZX_zS-afA" value="1"/>
       </inputValue>
     </node>
     <node xmi:type="uml:OpaqueAction" xmi:id="_htkbwElBEeyjAZX_zS-afA" name="CrownPass Holder selects 'Display Pass' on device" incoming="_3FSAMElBEeyjAZX_zS-afA" outgoing="_uh0xYElBEeyjAZX_zS-afA" inPartition="_3UHR8Ek3EeyjAZX_zS-afA"/>
-    <node xmi:type="uml:DecisionNode" xmi:id="_Icx3gElCEeyjAZX_zS-afA" name="Is user registered in system?" incoming="_IduSsElCEeyjAZX_zS-afA" outgoing="_4pqHkElCEeyjAZX_zS-afA _CRX4IFHoEeykwq5R-H2-iA" inPartition="_VKDm8Ek4EeyjAZX_zS-afA"/>
-    <node xmi:type="uml:OpaqueAction" xmi:id="_XgDpcElCEeyjAZX_zS-afA" name="Query Database for User Pass" incoming="_CRX4IFHoEeykwq5R-H2-iA" outgoing="_JgajoFHmEeykwq5R-H2-iA" inPartition="_VKDm8Ek4EeyjAZX_zS-afA"/>
-    <node xmi:type="uml:OpaqueAction" xmi:id="_0HwCoElCEeyjAZX_zS-afA" name="Send HTTP Error" incoming="_4pqHkElCEeyjAZX_zS-afA" inPartition="_VKDm8Ek4EeyjAZX_zS-afA">
+    <node xmi:type="uml:DecisionNode" xmi:id="_Icx3gElCEeyjAZX_zS-afA" name="Does user data exist?" incoming="_Fgx1QFNaEeykwq5R-H2-iA" outgoing="_Gk8oAFNaEeykwq5R-H2-iA _HU7TcFNaEeykwq5R-H2-iA" inPartition="_Rh0-MElHEeyjAZX_zS-afA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_XgDpcElCEeyjAZX_zS-afA" name="Query Database for User Pass" incoming="_EM-rEFNaEeykwq5R-H2-iA" inPartition="_VKDm8Ek4EeyjAZX_zS-afA">
+      <outputValue xmi:type="uml:OutputPin" xmi:id="_WUkikFNaEeykwq5R-H2-iA" outgoing="_JgajoFHmEeykwq5R-H2-iA" inPartition="_VKDm8Ek4EeyjAZX_zS-afA">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_WUnl4FNaEeykwq5R-H2-iA" value="1"/>
+      </outputValue>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_0HwCoElCEeyjAZX_zS-afA" name="Send HTTP Error" incoming="_KSU4sFNaEeykwq5R-H2-iA" inPartition="_VKDm8Ek4EeyjAZX_zS-afA">
       <outputValue xmi:type="uml:OutputPin" xmi:id="_RzGJ0UlGEeyjAZX_zS-afA" outgoing="_yIXUkFHkEeykwq5R-H2-iA">
         <upperBound xmi:type="uml:LiteralInteger" xmi:id="_RzGJ0klGEeyjAZX_zS-afA" value="1"/>
       </outputValue>
@@ -75,8 +80,12 @@
         <upperBound xmi:type="uml:LiteralInteger" xmi:id="_iS-VQklJEeyjAZX_zS-afA" value="1"/>
       </outputValue>
     </node>
-    <node xmi:type="uml:OpaqueAction" xmi:id="_ms-GQElHEeyjAZX_zS-afA" name="Receive Query" incoming="_MkqXwFHmEeykwq5R-H2-iA" outgoing="_0LCN4ElHEeyjAZX_zS-afA" inPartition="_Rh0-MElHEeyjAZX_zS-afA"/>
-    <node xmi:type="uml:OpaqueAction" xmi:id="_0KI2AElHEeyjAZX_zS-afA" name="Fetch Data" incoming="_0LCN4ElHEeyjAZX_zS-afA" inPartition="_Rh0-MElHEeyjAZX_zS-afA">
+    <node xmi:type="uml:OpaqueAction" xmi:id="_ms-GQElHEeyjAZX_zS-afA" name="Receive Query" outgoing="_Fgx1QFNaEeykwq5R-H2-iA" inPartition="_Rh0-MElHEeyjAZX_zS-afA">
+      <inputValue xmi:type="uml:InputPin" xmi:id="_ejr5EFNaEeykwq5R-H2-iA" incoming="_MkqXwFHmEeykwq5R-H2-iA" inPartition="_Rh0-MElHEeyjAZX_zS-afA">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_ejvjcFNaEeykwq5R-H2-iA" value="1"/>
+      </inputValue>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_0KI2AElHEeyjAZX_zS-afA" name="Fetch Data" incoming="_Gk8oAFNaEeykwq5R-H2-iA" inPartition="_Rh0-MElHEeyjAZX_zS-afA">
       <outputValue xmi:type="uml:OutputPin" xmi:id="_5cxNQUlHEeyjAZX_zS-afA" outgoing="_5cxNQElHEeyjAZX_zS-afA">
         <upperBound xmi:type="uml:LiteralInteger" xmi:id="_5cxNQklHEeyjAZX_zS-afA" value="1"/>
       </outputValue>
@@ -126,5 +135,6 @@
     <node xmi:type="uml:CentralBufferNode" xmi:id="_tsa4QFHlEeykwq5R-H2-iA" name="Database Request {CrownPassID}" incoming="_JgajoFHmEeykwq5R-H2-iA" outgoing="_MkqXwFHmEeykwq5R-H2-iA">
       <upperBound xmi:type="uml:LiteralInteger" xmi:id="_tsa4QVHlEeykwq5R-H2-iA" value="1"/>
     </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_-WdjoFNZEeykwq5R-H2-iA" name="Return error to PassService" incoming="_HU7TcFNaEeykwq5R-H2-iA" outgoing="_KSU4sFNaEeykwq5R-H2-iA" inPartition="_Rh0-MElHEeyjAZX_zS-afA"/>
   </packagedElement>
 </uml:Model>
