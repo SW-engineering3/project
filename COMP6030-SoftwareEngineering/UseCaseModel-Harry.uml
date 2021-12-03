@@ -16,7 +16,7 @@
     <packagedElement xmi:type="uml:UseCase" xmi:id="_msAIkDZREeyftdxnQk7C5g" name="Check Out"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_rYTfoDZREeyftdxnQk7C5g" name="Book Vaccination"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_29YdoDZXEeyftdxnQk7C5g" name="Notified By"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_29YdoDZXEeyftdxnQk7C5g"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_8LBKsDZYEeyftdxnQk7C5g"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_vrEUUDZcEeyftdxnQk7C5g" memberEnd="_vrJM0jZcEeyftdxnQk7C5g _vrJM0zZcEeyftdxnQk7C5g">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_vrJM0DZcEeyftdxnQk7C5g" source="org.eclipse.papyrus">
