@@ -4,7 +4,7 @@
     <packageImport xmi:type="uml:PackageImport" xmi:id="_ZA4iQEsfEeyto8ki5OzEFg">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
     </packageImport>
-    <packagedElement xmi:type="uml:Activity" xmi:id="_ZAb2UEsfEeyto8ki5OzEFg" name="Crownpass owner" node="_HByd8ExoEeyOS-iif2v_qg _MgvZ8ExoEeyOS-iif2v_qg _UITBMExoEeyOS-iif2v_qg _h5DbUExoEeyOS-iif2v_qg _gZftEExoEeyOS-iif2v_qg _eQYEcExoEeyOS-iif2v_qg _3VH6UExzEeyOS-iif2v_qg _8isycExzEeyOS-iif2v_qg _KGGGAEx0EeyOS-iif2v_qg _oVrDAEx0EeyOS-iif2v_qg _03lrcEx0EeyOS-iif2v_qg _FeaTwEx1EeyOS-iif2v_qg _4_SEIEx1EeyOS-iif2v_qg _sawhsEx3EeyOS-iif2v_qg __vVwwEx3EeyOS-iif2v_qg _P6E6AEx4EeyOS-iif2v_qg _tOeoMEx4EeyOS-iif2v_qg _fRs5YEx6EeyOS-iif2v_qg _kHCQoEx6EeyOS-iif2v_qg" group="_T7ch4ExxEeyOS-iif2v_qg _uzJkIExxEeyOS-iif2v_qg">
+    <packagedElement xmi:type="uml:Activity" xmi:id="_ZAb2UEsfEeyto8ki5OzEFg" name="Crownpass owner" node="_HByd8ExoEeyOS-iif2v_qg _MgvZ8ExoEeyOS-iif2v_qg _UITBMExoEeyOS-iif2v_qg _h5DbUExoEeyOS-iif2v_qg _gZftEExoEeyOS-iif2v_qg _eQYEcExoEeyOS-iif2v_qg _3VH6UExzEeyOS-iif2v_qg _8isycExzEeyOS-iif2v_qg _KGGGAEx0EeyOS-iif2v_qg _oVrDAEx0EeyOS-iif2v_qg _03lrcEx0EeyOS-iif2v_qg _FeaTwEx1EeyOS-iif2v_qg _4_SEIEx1EeyOS-iif2v_qg _sawhsEx3EeyOS-iif2v_qg __vVwwEx3EeyOS-iif2v_qg _P6E6AEx4EeyOS-iif2v_qg _tOeoMEx4EeyOS-iif2v_qg _fRs5YEx6EeyOS-iif2v_qg _kHCQoEx6EeyOS-iif2v_qg _8b2GoFHQEeyhBPVpUAS5uw" group="_T7ch4ExxEeyOS-iif2v_qg _uzJkIExxEeyOS-iif2v_qg">
       <edge xmi:type="uml:ControlFlow" xmi:id="_MhPwQExoEeyOS-iif2v_qg" target="_MgvZ8ExoEeyOS-iif2v_qg" source="_HByd8ExoEeyOS-iif2v_qg"/>
       <edge xmi:type="uml:ControlFlow" xmi:id="_eQmt8ExoEeyOS-iif2v_qg" target="_eQYEcExoEeyOS-iif2v_qg" source="_UITBMExoEeyOS-iif2v_qg"/>
       <edge xmi:type="uml:ControlFlow" xmi:id="_gZwy0ExoEeyOS-iif2v_qg" target="_gZftEExoEeyOS-iif2v_qg" source="_UITBMExoEeyOS-iif2v_qg"/>
@@ -23,7 +23,7 @@
       <edge xmi:type="uml:ControlFlow" xmi:id="_sbeTYEx3EeyOS-iif2v_qg" inPartition="_T7ch4ExxEeyOS-iif2v_qg" target="_sawhsEx3EeyOS-iif2v_qg" source="_03lrcEx0EeyOS-iif2v_qg"/>
       <edge xmi:type="uml:ControlFlow" xmi:id="_vUK-0Ex3EeyOS-iif2v_qg" inPartition="_T7ch4ExxEeyOS-iif2v_qg" target="_sawhsEx3EeyOS-iif2v_qg" source="_oVrDAEx0EeyOS-iif2v_qg"/>
       <edge xmi:type="uml:ControlFlow" xmi:id="_xGBW8Ex3EeyOS-iif2v_qg" inPartition="_T7ch4ExxEeyOS-iif2v_qg" target="_sawhsEx3EeyOS-iif2v_qg" source="_FeaTwEx1EeyOS-iif2v_qg"/>
-      <edge xmi:type="uml:ControlFlow" xmi:id="__v6_kEx3EeyOS-iif2v_qg" inPartition="_T7ch4ExxEeyOS-iif2v_qg" target="__vVwwEx3EeyOS-iif2v_qg" source="_sawhsEx3EeyOS-iif2v_qg"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="__v6_kEx3EeyOS-iif2v_qg" inPartition="_T7ch4ExxEeyOS-iif2v_qg" target="__vVwwEx3EeyOS-iif2v_qg" source="_8b2GoFHQEeyhBPVpUAS5uw"/>
       <edge xmi:type="uml:ControlFlow" xmi:id="_P6slEEx4EeyOS-iif2v_qg" inPartition="_T7ch4ExxEeyOS-iif2v_qg" target="_P6E6AEx4EeyOS-iif2v_qg" source="_4_SEIEx1EeyOS-iif2v_qg"/>
       <edge xmi:type="uml:ControlFlow" xmi:id="_tPZ1QEx4EeyOS-iif2v_qg" inPartition="_uzJkIExxEeyOS-iif2v_qg" target="_tOeoMEx4EeyOS-iif2v_qg" source="_8isycExzEeyOS-iif2v_qg"/>
       <edge xmi:type="uml:ControlFlow" xmi:id="_fSaEAEx6EeyOS-iif2v_qg" inPartition="_uzJkIExxEeyOS-iif2v_qg" target="_fRs5YEx6EeyOS-iif2v_qg" source="_tOeoMEx4EeyOS-iif2v_qg"/>
@@ -31,18 +31,11 @@
         <guard xmi:type="uml:LiteralBoolean" xmi:id="_kH-EwEx6EeyOS-iif2v_qg" value="true"/>
         <weight xmi:type="uml:LiteralInteger" xmi:id="_kH-EwUx6EeyOS-iif2v_qg" value="1"/>
       </edge>
-      <edge xmi:type="uml:ObjectFlow" xmi:id="_3AJEoEx6EeyOS-iif2v_qg" target="_kHCQoEx6EeyOS-iif2v_qg" source="_3AJrsEx6EeyOS-iif2v_qg">
-        <guard xmi:type="uml:LiteralBoolean" xmi:id="_3AZjUEx6EeyOS-iif2v_qg" value="true"/>
-        <weight xmi:type="uml:LiteralInteger" xmi:id="_3AZjUUx6EeyOS-iif2v_qg" value="1"/>
-      </edge>
-      <group xmi:type="uml:ActivityPartition" xmi:id="_T7ch4ExxEeyOS-iif2v_qg" name="crownpass owner" node="_HByd8ExoEeyOS-iif2v_qg _MgvZ8ExoEeyOS-iif2v_qg _UITBMExoEeyOS-iif2v_qg _h5DbUExoEeyOS-iif2v_qg _gZftEExoEeyOS-iif2v_qg _eQYEcExoEeyOS-iif2v_qg _3VH6UExzEeyOS-iif2v_qg _oVrDAEx0EeyOS-iif2v_qg _03lrcEx0EeyOS-iif2v_qg _FeaTwEx1EeyOS-iif2v_qg _4_SEIEx1EeyOS-iif2v_qg _sawhsEx3EeyOS-iif2v_qg __vVwwEx3EeyOS-iif2v_qg _P6E6AEx4EeyOS-iif2v_qg" edge="_biI0MEx2EeyOS-iif2v_qg _bBqu8Ex3EeyOS-iif2v_qg _cST3cEx3EeyOS-iif2v_qg _hjoAEEx3EeyOS-iif2v_qg _sbeTYEx3EeyOS-iif2v_qg _vUK-0Ex3EeyOS-iif2v_qg _xGBW8Ex3EeyOS-iif2v_qg __v6_kEx3EeyOS-iif2v_qg _P6slEEx4EeyOS-iif2v_qg"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_CYUsIFHREeyhBPVpUAS5uw" inPartition="_T7ch4ExxEeyOS-iif2v_qg" target="_8b2GoFHQEeyhBPVpUAS5uw" source="_sawhsEx3EeyOS-iif2v_qg"/>
+      <group xmi:type="uml:ActivityPartition" xmi:id="_T7ch4ExxEeyOS-iif2v_qg" name="crownpass owner" node="_HByd8ExoEeyOS-iif2v_qg _MgvZ8ExoEeyOS-iif2v_qg _UITBMExoEeyOS-iif2v_qg _h5DbUExoEeyOS-iif2v_qg _gZftEExoEeyOS-iif2v_qg _eQYEcExoEeyOS-iif2v_qg _3VH6UExzEeyOS-iif2v_qg _oVrDAEx0EeyOS-iif2v_qg _03lrcEx0EeyOS-iif2v_qg _FeaTwEx1EeyOS-iif2v_qg _4_SEIEx1EeyOS-iif2v_qg _sawhsEx3EeyOS-iif2v_qg __vVwwEx3EeyOS-iif2v_qg _P6E6AEx4EeyOS-iif2v_qg _8b2GoFHQEeyhBPVpUAS5uw" edge="_biI0MEx2EeyOS-iif2v_qg _bBqu8Ex3EeyOS-iif2v_qg _cST3cEx3EeyOS-iif2v_qg _hjoAEEx3EeyOS-iif2v_qg _sbeTYEx3EeyOS-iif2v_qg _vUK-0Ex3EeyOS-iif2v_qg _xGBW8Ex3EeyOS-iif2v_qg _P6slEEx4EeyOS-iif2v_qg __v6_kEx3EeyOS-iif2v_qg _CYUsIFHREeyhBPVpUAS5uw"/>
       <group xmi:type="uml:ActivityPartition" xmi:id="_uzJkIExxEeyOS-iif2v_qg" name="crownppass system" node="_8isycExzEeyOS-iif2v_qg _KGGGAEx0EeyOS-iif2v_qg _tOeoMEx4EeyOS-iif2v_qg _fRs5YEx6EeyOS-iif2v_qg _kHCQoEx6EeyOS-iif2v_qg" edge="_KGnDYEx0EeyOS-iif2v_qg _4_7kYEx1EeyOS-iif2v_qg _tPZ1QEx4EeyOS-iif2v_qg _fSaEAEx6EeyOS-iif2v_qg _kHuNIEx6EeyOS-iif2v_qg"/>
       <node xmi:type="uml:InitialNode" xmi:id="_HByd8ExoEeyOS-iif2v_qg" name="start" outgoing="_MhPwQExoEeyOS-iif2v_qg" inPartition="_T7ch4ExxEeyOS-iif2v_qg"/>
-      <node xmi:type="uml:OpaqueAction" xmi:id="_MgvZ8ExoEeyOS-iif2v_qg" name="Set entry condition for crownpass holders" incoming="_MhPwQExoEeyOS-iif2v_qg" outgoing="_biI0MEx2EeyOS-iif2v_qg" inPartition="_T7ch4ExxEeyOS-iif2v_qg">
-        <outputValue xmi:type="uml:OutputPin" xmi:id="_3AJrsEx6EeyOS-iif2v_qg" name="HTTP" outgoing="_3AJEoEx6EeyOS-iif2v_qg">
-          <upperBound xmi:type="uml:LiteralInteger" xmi:id="_3AJrsUx6EeyOS-iif2v_qg" value="1"/>
-        </outputValue>
-      </node>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_MgvZ8ExoEeyOS-iif2v_qg" name="Set entry condition for crownpass holders" incoming="_MhPwQExoEeyOS-iif2v_qg" outgoing="_biI0MEx2EeyOS-iif2v_qg" inPartition="_T7ch4ExxEeyOS-iif2v_qg"/>
       <node xmi:type="uml:ForkNode" xmi:id="_UITBMExoEeyOS-iif2v_qg" name="" incoming="_ijJY0Ex2EeyOS-iif2v_qg" outgoing="_eQmt8ExoEeyOS-iif2v_qg _gZwy0ExoEeyOS-iif2v_qg _h5UhEExoEeyOS-iif2v_qg" inPartition="_T7ch4ExxEeyOS-iif2v_qg"/>
       <node xmi:type="uml:OpaqueAction" xmi:id="_eQYEcExoEeyOS-iif2v_qg" name="green" incoming="_eQmt8ExoEeyOS-iif2v_qg" outgoing="_bBqu8Ex3EeyOS-iif2v_qg" inPartition="_T7ch4ExxEeyOS-iif2v_qg"/>
       <node xmi:type="uml:OpaqueAction" xmi:id="_gZftEExoEeyOS-iif2v_qg" name="light blue" incoming="_gZwy0ExoEeyOS-iif2v_qg" outgoing="_cST3cEx3EeyOS-iif2v_qg" inPartition="_T7ch4ExxEeyOS-iif2v_qg"/>
@@ -62,7 +55,7 @@
       <node xmi:type="uml:OpaqueAction" xmi:id="_03lrcEx0EeyOS-iif2v_qg" name="allow light blue or dark blue states to enter area" incoming="_cST3cEx3EeyOS-iif2v_qg" outgoing="_sbeTYEx3EeyOS-iif2v_qg" inPartition="_T7ch4ExxEeyOS-iif2v_qg"/>
       <node xmi:type="uml:OpaqueAction" xmi:id="_FeaTwEx1EeyOS-iif2v_qg" name="allow dark blue states to enter area" incoming="_hjoAEEx3EeyOS-iif2v_qg" outgoing="_xGBW8Ex3EeyOS-iif2v_qg" inPartition="_T7ch4ExxEeyOS-iif2v_qg"/>
       <node xmi:type="uml:OpaqueAction" xmi:id="_4_SEIEx1EeyOS-iif2v_qg" name="No entry to area" incoming="_4_7kYEx1EeyOS-iif2v_qg" outgoing="_P6slEEx4EeyOS-iif2v_qg" inPartition="_T7ch4ExxEeyOS-iif2v_qg"/>
-      <node xmi:type="uml:JoinNode" xmi:id="_sawhsEx3EeyOS-iif2v_qg" name="" incoming="_sbeTYEx3EeyOS-iif2v_qg _vUK-0Ex3EeyOS-iif2v_qg _xGBW8Ex3EeyOS-iif2v_qg" outgoing="__v6_kEx3EeyOS-iif2v_qg" inPartition="_T7ch4ExxEeyOS-iif2v_qg"/>
+      <node xmi:type="uml:JoinNode" xmi:id="_sawhsEx3EeyOS-iif2v_qg" name="" incoming="_sbeTYEx3EeyOS-iif2v_qg _vUK-0Ex3EeyOS-iif2v_qg _xGBW8Ex3EeyOS-iif2v_qg" outgoing="_CYUsIFHREeyhBPVpUAS5uw" inPartition="_T7ch4ExxEeyOS-iif2v_qg"/>
       <node xmi:type="uml:ActivityFinalNode" xmi:id="__vVwwEx3EeyOS-iif2v_qg" name="finish" incoming="__v6_kEx3EeyOS-iif2v_qg" inPartition="_T7ch4ExxEeyOS-iif2v_qg"/>
       <node xmi:type="uml:FlowFinalNode" xmi:id="_P6E6AEx4EeyOS-iif2v_qg" name="end flow" incoming="_P6slEEx4EeyOS-iif2v_qg" inPartition="_T7ch4ExxEeyOS-iif2v_qg"/>
       <node xmi:type="uml:DataStoreNode" xmi:id="_tOeoMEx4EeyOS-iif2v_qg" name="Entry conditions" incoming="_tPZ1QEx4EeyOS-iif2v_qg" outgoing="_fSaEAEx6EeyOS-iif2v_qg" inPartition="_uzJkIExxEeyOS-iif2v_qg">
@@ -73,9 +66,10 @@
           <upperBound xmi:type="uml:LiteralInteger" xmi:id="_kHvbQEx6EeyOS-iif2v_qg" value="1"/>
         </outputValue>
       </node>
-      <node xmi:type="uml:CentralBufferNode" xmi:id="_kHCQoEx6EeyOS-iif2v_qg" name="Crowpass holder information" incoming="_kHuNIEx6EeyOS-iif2v_qg _3AJEoEx6EeyOS-iif2v_qg" inPartition="_uzJkIExxEeyOS-iif2v_qg">
+      <node xmi:type="uml:CentralBufferNode" xmi:id="_kHCQoEx6EeyOS-iif2v_qg" name="Crowpass holder information" incoming="_kHuNIEx6EeyOS-iif2v_qg" inPartition="_uzJkIExxEeyOS-iif2v_qg">
         <upperBound xmi:type="uml:LiteralInteger" xmi:id="_kHCQoUx6EeyOS-iif2v_qg" value="1"/>
       </node>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_8b2GoFHQEeyhBPVpUAS5uw" name="Allow area entry" incoming="_CYUsIFHREeyhBPVpUAS5uw" outgoing="__v6_kEx3EeyOS-iif2v_qg" inPartition="_T7ch4ExxEeyOS-iif2v_qg"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_nruW0ExjEeyOS-iif2v_qg" name="crownpass owner">
       <ownedComment xmi:type="uml:Comment" xmi:id="_jQKjkFEbEeycLdL2yFJ7mg">
