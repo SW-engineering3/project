@@ -28,7 +28,7 @@
     <packagedElement xmi:type="uml:Component" xmi:id="_JxfWsEn9EeyzQ5mwk6lZBw" name="CrownPass Holder Management Service">
       <packagedElement xmi:type="uml:Usage" xmi:id="_Ia0HMFEaEeykwq5R-H2-iA" client="_JxfWsEn9EeyzQ5mwk6lZBw" supplier="_nNmIAEoAEeyzQ5mwk6lZBw"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Component" xmi:id="_p-xHwEoDEeyzQ5mwk6lZBw" name="Vaccine Appointments Service">
+    <packagedElement xmi:type="uml:Component" xmi:id="_p-xHwEoDEeyzQ5mwk6lZBw" name="Appointments Service">
       <packagedElement xmi:type="uml:Usage" xmi:id="_PQxH0FEZEeykwq5R-H2-iA" client="_p-xHwEoDEeyzQ5mwk6lZBw" supplier="_JxfWsEn9EeyzQ5mwk6lZBw"/>
       <packagedElement xmi:type="uml:Usage" xmi:id="_6vWAQFEaEeykwq5R-H2-iA" client="_p-xHwEoDEeyzQ5mwk6lZBw" supplier="_nNmIAEoAEeyzQ5mwk6lZBw"/>
     </packagedElement>
@@ -43,5 +43,6 @@
     <packagedElement xmi:type="uml:Component" xmi:id="_MxyO0FEXEeykwq5R-H2-iA" name="Area Owner Management Service"/>
     <packagedElement xmi:type="uml:Component" xmi:id="_xfKyMFEWEeykwq5R-H2-iA" name="Vaccine Centre Staff Management Service"/>
     <packagedElement xmi:type="uml:Component" xmi:id="_O-BOIFEdEeykwq5R-H2-iA" name="CrownPass Tester Management Service"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_3_4gQFNSEeykwq5R-H2-iA" name="Track and Trace Service"/>
   </packagedElement>
 </uml:Model>

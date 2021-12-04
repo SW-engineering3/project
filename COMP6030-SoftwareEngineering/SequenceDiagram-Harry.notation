@@ -25,10 +25,10 @@
         <children xmi:type="notation:DecorationNode" xmi:id="_c8DsMkbeEey0h838tHFP-w" type="Lifeline_NameLabel"/>
         <children xmi:type="notation:Shape" xmi:id="_0kagwEbiEey0h838tHFP-w" type="ActionExecutionSpecification_Shape">
           <element xmi:type="uml:ActionExecutionSpecification" href="SequenceDiagram-Harry.uml#_0kNFYEbiEey0h838tHFP-w"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0kagwUbiEey0h838tHFP-w" x="60" y="105" width="20" height="581"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0kagwUbiEey0h838tHFP-w" x="80" y="105" width="20" height="581"/>
         </children>
         <element xmi:type="uml:Lifeline" href="SequenceDiagram-Harry.uml#_c76iQEbeEey0h838tHFP-w"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_c8DsMUbeEey0h838tHFP-w" x="614" y="10" width="141" height="770"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_c8DsMUbeEey0h838tHFP-w" x="614" y="10" width="181" height="770"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_rTn1YEbjEey0h838tHFP-w" type="Lifeline_Shape">
         <children xmi:type="notation:DecorationNode" xmi:id="_rToccEbjEey0h838tHFP-w" type="Lifeline_NameLabel"/>
@@ -298,7 +298,7 @@
   </edges>
   <edges xmi:type="notation:Connector" xmi:id="_-L9tAEbmEey0h838tHFP-w" type="Message_SynchEdge" source="_c8DsMEbeEey0h838tHFP-w" target="_c8DsMEbeEey0h838tHFP-w">
     <children xmi:type="notation:DecorationNode" xmi:id="_-L9tA0bmEey0h838tHFP-w" type="Message_SynchNameLabel">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_-L9tBEbmEey0h838tHFP-w" x="48" y="-78"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_-L9tBEbmEey0h838tHFP-w" x="8" y="-255"/>
     </children>
     <children xmi:type="notation:DecorationNode" xmi:id="_-L9tBUbmEey0h838tHFP-w" type="Message_SynchStereotypeLabel">
       <layoutConstraint xmi:type="notation:Location" xmi:id="_-L9tBkbmEey0h838tHFP-w" x="1" y="-33"/>
