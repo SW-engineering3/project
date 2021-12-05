@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_msDwcEPaEeyQDYrUNz3TXw" type="PapyrusUMLComponentDiagram" name="ComponentDiagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_bhFq8E6dEeyvGehJb-gpDg" type="Component_PackagedElementShape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_bhFq8k6dEeyvGehJb-gpDg" type="Component_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_bhFq806dEeyvGehJb-gpDg" type="Component_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_bhGSAE6dEeyvGehJb-gpDg" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_bhGSAU6dEeyvGehJb-gpDg" type="Component_StructureCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_bhGSAk6dEeyvGehJb-gpDg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bhGSA06dEeyvGehJb-gpDg"/>
+    </children>
+    <element xmi:type="uml:Component" href="ComponentDiagram-Camara.uml#_bhBZgE6dEeyvGehJb-gpDg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bhFq8U6dEeyvGehJb-gpDg" x="600" y="220"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_e1-jIE6dEeyvGehJb-gpDg" type="Component_PackagedElementShape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_e1-jIk6dEeyvGehJb-gpDg" type="Component_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_e1_KME6dEeyvGehJb-gpDg" type="Component_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_e1_KMU6dEeyvGehJb-gpDg" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_e1_KMk6dEeyvGehJb-gpDg" type="Component_StructureCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_e1_KM06dEeyvGehJb-gpDg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_e1_KNE6dEeyvGehJb-gpDg"/>
+    </children>
+    <element xmi:type="uml:Component" href="ComponentDiagram-Camara.uml#_e19VAE6dEeyvGehJb-gpDg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_e1-jIU6dEeyvGehJb-gpDg" x="40" y="220"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_sVSn8E6dEeyvGehJb-gpDg" type="Component_PackagedElementShape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_sVSn8k6dEeyvGehJb-gpDg" type="Component_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sVTPAE6dEeyvGehJb-gpDg" type="Component_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sVTPAU6dEeyvGehJb-gpDg" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_sVTPAk6dEeyvGehJb-gpDg" type="Component_StructureCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_sVTPA06dEeyvGehJb-gpDg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sVTPBE6dEeyvGehJb-gpDg"/>
+    </children>
+    <element xmi:type="uml:Component" href="ComponentDiagram-Camara.uml#_sVQywE6dEeyvGehJb-gpDg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sVSn8U6dEeyvGehJb-gpDg" x="320" y="220"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_tQPS4VCCEeyvGehJb-gpDg" type="Component_PackagedElementShape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_tQPS41CCEeyvGehJb-gpDg" type="Component_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_tQPS5FCCEeyvGehJb-gpDg" type="Component_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_tQPS5VCCEeyvGehJb-gpDg" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_tQPS5lCCEeyvGehJb-gpDg" type="Component_StructureCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_tQPS51CCEeyvGehJb-gpDg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tQPS6FCCEeyvGehJb-gpDg"/>
+    </children>
+    <element xmi:type="uml:Component" href="ComponentDiagram-Camara.uml#_tQPS4FCCEeyvGehJb-gpDg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tQPS4lCCEeyvGehJb-gpDg" x="320" y="60"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_Co5JsFELEeyvGehJb-gpDg" type="Component_PackagedElementShape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Co5wwFELEeyvGehJb-gpDg" type="Component_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Co5wwVELEeyvGehJb-gpDg" type="Component_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Co5wwlELEeyvGehJb-gpDg" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_Co5ww1ELEeyvGehJb-gpDg" type="Component_StructureCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_Co5wxFELEeyvGehJb-gpDg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Co5wxVELEeyvGehJb-gpDg"/>
+    </children>
+    <element xmi:type="uml:Component" href="ComponentDiagram-Camara.uml#_Co2tcFELEeyvGehJb-gpDg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Co5JsVELEeyvGehJb-gpDg" x="820" y="80"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_msDwcUPaEeyQDYrUNz3TXw" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_msDwckPaEeyQDYrUNz3TXw"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_msDwc0PaEeyQDYrUNz3TXw" diagramKindId="org.eclipse.papyrus.uml.diagram.component.root.package">
+    <owner xmi:type="uml:Model" href="ComponentDiagram-Camara.uml#_ef0HwEPaEeyQDYrUNz3TXw"/>
+  </styles>
+  <element xmi:type="uml:Model" href="ComponentDiagram-Camara.uml#_ef0HwEPaEeyQDYrUNz3TXw"/>
+</notation:Diagram>

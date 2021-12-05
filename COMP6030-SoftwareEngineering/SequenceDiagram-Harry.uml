@@ -6,7 +6,7 @@
   <packagedElement xmi:type="uml:Interaction" xmi:id="_W5gwYEbdEey0h838tHFP-w" name="Display Pass">
     <lifeline xmi:type="uml:Lifeline" xmi:id="_vEqs0EbdEey0h838tHFP-w" name="MobileDevice" coveredBy="_peQogEbeEey0h838tHFP-w _wYB8sUbeEey0h838tHFP-w _apsj0EblEey0h838tHFP-w _jJZ_QkbeEey0h838tHFP-w _jJZ_QEbeEey0h838tHFP-w"/>
     <lifeline xmi:type="uml:Lifeline" xmi:id="_xk2KkEbdEey0h838tHFP-w" name="ServerEndpoint" coveredBy="_peQogUbeEey0h838tHFP-w _wYB8skbeEey0h838tHFP-w _3omqgUbiEey0h838tHFP-w _VLNXUkbkEey0h838tHFP-w _apquoEblEey0h838tHFP-w _mThK0EbeEey0h838tHFP-w"/>
-    <lifeline xmi:type="uml:Lifeline" xmi:id="_c76iQEbeEey0h838tHFP-w" name="PassService" coveredBy="_0kNFYUbiEey0h838tHFP-w _0kNFYEbiEey0h838tHFP-w _3omqgkbiEey0h838tHFP-w _bcl10UbkEey0h838tHFP-w _bdP9IUbkEey0h838tHFP-w _pLUPoUbkEey0h838tHFP-w _pMIvAEbkEey0h838tHFP-w _yeMwQUbkEey0h838tHFP-w _yiCHYkbkEey0h838tHFP-w _8Uxz0UbkEey0h838tHFP-w _8Vu2FkbkEey0h838tHFP-w _IY4CYUbmEey0h838tHFP-w _IZpeeEbmEey0h838tHFP-w _doh3AUbmEey0h838tHFP-w _dpoqQkbmEey0h838tHFP-w _-LvqkUbmEey0h838tHFP-w _-LvqkkbmEey0h838tHFP-w _VLNXUUbkEey0h838tHFP-w"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_c76iQEbeEey0h838tHFP-w" name="CrownPass Management Service" coveredBy="_0kNFYUbiEey0h838tHFP-w _0kNFYEbiEey0h838tHFP-w _3omqgkbiEey0h838tHFP-w _bcl10UbkEey0h838tHFP-w _bdP9IUbkEey0h838tHFP-w _pLUPoUbkEey0h838tHFP-w _pMIvAEbkEey0h838tHFP-w _yeMwQUbkEey0h838tHFP-w _yiCHYkbkEey0h838tHFP-w _8Uxz0UbkEey0h838tHFP-w _8Vu2FkbkEey0h838tHFP-w _IY4CYUbmEey0h838tHFP-w _IZpeeEbmEey0h838tHFP-w _doh3AUbmEey0h838tHFP-w _dpoqQkbmEey0h838tHFP-w _-LvqkUbmEey0h838tHFP-w _-LvqkkbmEey0h838tHFP-w _VLNXUUbkEey0h838tHFP-w"/>
     <lifeline xmi:type="uml:Lifeline" xmi:id="_rTfSgEbjEey0h838tHFP-w" name="CrownPassHolder" coveredBy="_bcl10kbkEey0h838tHFP-w _bdP9IEbkEey0h838tHFP-w _pLUPokbkEey0h838tHFP-w _pL--B0bkEey0h838tHFP-w _yeMwQkbkEey0h838tHFP-w _yiCHYUbkEey0h838tHFP-w _8U7k0EbkEey0h838tHFP-w _8Vu2FUbkEey0h838tHFP-w _IY4CYkbmEey0h838tHFP-w _IZped0bmEey0h838tHFP-w _doh3AkbmEey0h838tHFP-w _dpoqQUbmEey0h838tHFP-w _bdJ2gEbkEey0h838tHFP-w _pL--AEbkEey0h838tHFP-w _yh4WYEbkEey0h838tHFP-w _8VlFFEbkEey0h838tHFP-w _IZpecEbmEey0h838tHFP-w _dpe5QEbmEey0h838tHFP-w"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_peQogEbeEey0h838tHFP-w" name="Message10SendEvent" covered="_vEqs0EbdEey0h838tHFP-w"/>
     <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_jJZ_QEbeEey0h838tHFP-w" name="ActionExecutionSpecification4" covered="_vEqs0EbdEey0h838tHFP-w" finish="_jJZ_QkbeEey0h838tHFP-w" start="_peQogEbeEey0h838tHFP-w"/>
@@ -56,21 +56,21 @@
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_apsj0EblEey0h838tHFP-w" name="Message50ReceiveEvent" covered="_vEqs0EbdEey0h838tHFP-w" message="_apfIcEblEey0h838tHFP-w"/>
     <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_jJZ_QkbeEey0h838tHFP-w" name="ActionExecutionSpecification4Finish" covered="_vEqs0EbdEey0h838tHFP-w" execution="_jJZ_QEbeEey0h838tHFP-w"/>
     <message xmi:type="uml:Message" xmi:id="_wYB8sEbeEey0h838tHFP-w" name="HTTP Request" receiveEvent="_wYB8skbeEey0h838tHFP-w" sendEvent="_wYB8sUbeEey0h838tHFP-w"/>
-    <message xmi:type="uml:Message" xmi:id="_3omqgEbiEey0h838tHFP-w" name="DisplayPass(CrownPassID)" receiveEvent="_3omqgkbiEey0h838tHFP-w" sendEvent="_3omqgUbiEey0h838tHFP-w"/>
+    <message xmi:type="uml:Message" xmi:id="_3omqgEbiEey0h838tHFP-w" name="GetCrownpass(CrownPassID)" receiveEvent="_3omqgkbiEey0h838tHFP-w" sendEvent="_3omqgUbiEey0h838tHFP-w"/>
     <message xmi:type="uml:Message" xmi:id="_VLNXUEbkEey0h838tHFP-w" name="Return Pass" messageSort="reply" receiveEvent="_VLNXUkbkEey0h838tHFP-w" sendEvent="_VLNXUUbkEey0h838tHFP-w"/>
-    <message xmi:type="uml:Message" xmi:id="_bcl10EbkEey0h838tHFP-w" name="GetPhoto()" receiveEvent="_bcl10kbkEey0h838tHFP-w" sendEvent="_bcl10UbkEey0h838tHFP-w"/>
-    <message xmi:type="uml:Message" xmi:id="_bdJ2hkbkEey0h838tHFP-w" name="Return Photo URL" messageSort="reply" receiveEvent="_bdP9IUbkEey0h838tHFP-w" sendEvent="_bdP9IEbkEey0h838tHFP-w"/>
-    <message xmi:type="uml:Message" xmi:id="_pLUPoEbkEey0h838tHFP-w" name="GetQRCode()" receiveEvent="_pLUPokbkEey0h838tHFP-w" sendEvent="_pLUPoUbkEey0h838tHFP-w"/>
-    <message xmi:type="uml:Message" xmi:id="_pL--BkbkEey0h838tHFP-w" name="Return QR Code URL" messageSort="reply" receiveEvent="_pMIvAEbkEey0h838tHFP-w" sendEvent="_pL--B0bkEey0h838tHFP-w"/>
-    <message xmi:type="uml:Message" xmi:id="_yeMwQEbkEey0h838tHFP-w" name="GetVaccinationState()" receiveEvent="_yeMwQkbkEey0h838tHFP-w" sendEvent="_yeMwQUbkEey0h838tHFP-w"/>
-    <message xmi:type="uml:Message" xmi:id="_yiCHYEbkEey0h838tHFP-w" name="Return Vaccination State" messageSort="reply" receiveEvent="_yiCHYkbkEey0h838tHFP-w" sendEvent="_yiCHYUbkEey0h838tHFP-w"/>
-    <message xmi:type="uml:Message" xmi:id="_8Uxz0EbkEey0h838tHFP-w" name="GetInfectionState()" receiveEvent="_8U7k0EbkEey0h838tHFP-w" sendEvent="_8Uxz0UbkEey0h838tHFP-w"/>
-    <message xmi:type="uml:Message" xmi:id="_8Vu2FEbkEey0h838tHFP-w" name="Return Infection State" messageSort="reply" receiveEvent="_8Vu2FkbkEey0h838tHFP-w" sendEvent="_8Vu2FUbkEey0h838tHFP-w"/>
+    <message xmi:type="uml:Message" xmi:id="_bcl10EbkEey0h838tHFP-w" name="getPhotoFilePath()" receiveEvent="_bcl10kbkEey0h838tHFP-w" sendEvent="_bcl10UbkEey0h838tHFP-w"/>
+    <message xmi:type="uml:Message" xmi:id="_bdJ2hkbkEey0h838tHFP-w" name="Return PhotoFilePath" messageSort="reply" receiveEvent="_bdP9IUbkEey0h838tHFP-w" sendEvent="_bdP9IEbkEey0h838tHFP-w"/>
+    <message xmi:type="uml:Message" xmi:id="_pLUPoEbkEey0h838tHFP-w" name="getQRCodeFilePath()" receiveEvent="_pLUPokbkEey0h838tHFP-w" sendEvent="_pLUPoUbkEey0h838tHFP-w"/>
+    <message xmi:type="uml:Message" xmi:id="_pL--BkbkEey0h838tHFP-w" name="Return QRCodeFilePath" messageSort="reply" receiveEvent="_pMIvAEbkEey0h838tHFP-w" sendEvent="_pL--B0bkEey0h838tHFP-w"/>
+    <message xmi:type="uml:Message" xmi:id="_yeMwQEbkEey0h838tHFP-w" name="getVaccinationState()" receiveEvent="_yeMwQkbkEey0h838tHFP-w" sendEvent="_yeMwQUbkEey0h838tHFP-w"/>
+    <message xmi:type="uml:Message" xmi:id="_yiCHYEbkEey0h838tHFP-w" name="Return VaccinationState" messageSort="reply" receiveEvent="_yiCHYkbkEey0h838tHFP-w" sendEvent="_yiCHYUbkEey0h838tHFP-w"/>
+    <message xmi:type="uml:Message" xmi:id="_8Uxz0EbkEey0h838tHFP-w" name="getInfectionState()" receiveEvent="_8U7k0EbkEey0h838tHFP-w" sendEvent="_8Uxz0UbkEey0h838tHFP-w"/>
+    <message xmi:type="uml:Message" xmi:id="_8Vu2FEbkEey0h838tHFP-w" name="Return InfectionState" messageSort="reply" receiveEvent="_8Vu2FkbkEey0h838tHFP-w" sendEvent="_8Vu2FUbkEey0h838tHFP-w"/>
     <message xmi:type="uml:Message" xmi:id="_apfIcEblEey0h838tHFP-w" name="HTTP Response" messageSort="reply" receiveEvent="_apsj0EblEey0h838tHFP-w" sendEvent="_apquoEblEey0h838tHFP-w"/>
-    <message xmi:type="uml:Message" xmi:id="_IY4CYEbmEey0h838tHFP-w" name="GetFirstName()" receiveEvent="_IY4CYkbmEey0h838tHFP-w" sendEvent="_IY4CYUbmEey0h838tHFP-w"/>
-    <message xmi:type="uml:Message" xmi:id="_IZpedkbmEey0h838tHFP-w" name="Return First Name" messageSort="reply" receiveEvent="_IZpeeEbmEey0h838tHFP-w" sendEvent="_IZped0bmEey0h838tHFP-w"/>
-    <message xmi:type="uml:Message" xmi:id="_doh3AEbmEey0h838tHFP-w" name="GetLastName()" receiveEvent="_doh3AkbmEey0h838tHFP-w" sendEvent="_doh3AUbmEey0h838tHFP-w"/>
-    <message xmi:type="uml:Message" xmi:id="_dpoqQEbmEey0h838tHFP-w" name="Return Last Name" messageSort="reply" receiveEvent="_dpoqQkbmEey0h838tHFP-w" sendEvent="_dpoqQUbmEey0h838tHFP-w"/>
-    <message xmi:type="uml:Message" xmi:id="_-LvqkEbmEey0h838tHFP-w" name="BuildPass(Photo,QR,vState,iState,First,Last)" receiveEvent="_-LvqkkbmEey0h838tHFP-w" sendEvent="_-LvqkUbmEey0h838tHFP-w"/>
+    <message xmi:type="uml:Message" xmi:id="_IY4CYEbmEey0h838tHFP-w" name="getFirstName()" receiveEvent="_IY4CYkbmEey0h838tHFP-w" sendEvent="_IY4CYUbmEey0h838tHFP-w"/>
+    <message xmi:type="uml:Message" xmi:id="_IZpedkbmEey0h838tHFP-w" name="Return FirstName" messageSort="reply" receiveEvent="_IZpeeEbmEey0h838tHFP-w" sendEvent="_IZped0bmEey0h838tHFP-w"/>
+    <message xmi:type="uml:Message" xmi:id="_doh3AEbmEey0h838tHFP-w" name="getLastName()" receiveEvent="_doh3AkbmEey0h838tHFP-w" sendEvent="_doh3AUbmEey0h838tHFP-w"/>
+    <message xmi:type="uml:Message" xmi:id="_dpoqQEbmEey0h838tHFP-w" name="Return LastName" messageSort="reply" receiveEvent="_dpoqQkbmEey0h838tHFP-w" sendEvent="_dpoqQUbmEey0h838tHFP-w"/>
+    <message xmi:type="uml:Message" xmi:id="_-LvqkEbmEey0h838tHFP-w" name="BuildPass(PhotoFilePath,QRCodeFilePath,VaccinationState,InfectionState,FirstName,LastName)" receiveEvent="_-LvqkkbmEey0h838tHFP-w" sendEvent="_-LvqkUbmEey0h838tHFP-w"/>
   </packagedElement>
 </uml:Model>

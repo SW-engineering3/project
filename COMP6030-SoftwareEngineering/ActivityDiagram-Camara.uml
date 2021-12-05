@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_xwuUkEPWEeyQDYrUNz3TXw" name="model">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_xx1H0EPWEeyQDYrUNz3TXw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_-jXgoEPWEeyQDYrUNz3TXw" name="Enter Test Result" node="_rHsSAE4REeyvGehJb-gpDg _2vL5kE4REeyvGehJb-gpDg _78Y-QE4REeyvGehJb-gpDg _C_3BAE4SEeyvGehJb-gpDg _ffKTME4SEeyvGehJb-gpDg _k4rVkE4SEeyvGehJb-gpDg _VoLKgE4TEeyvGehJb-gpDg _orxh0E4UEeyvGehJb-gpDg _Qgz9ME4VEeyvGehJb-gpDg">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_2wYMYE4REeyvGehJb-gpDg" target="_2vL5kE4REeyvGehJb-gpDg" source="_rHsSAE4REeyvGehJb-gpDg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_79lREE4REeyvGehJb-gpDg" target="_78Y-QE4REeyvGehJb-gpDg" source="_2vL5kE4REeyvGehJb-gpDg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_DAmn4E4SEeyvGehJb-gpDg" target="_C_3BAE4SEeyvGehJb-gpDg" source="_78Y-QE4REeyvGehJb-gpDg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_6l-IcE4SEeyvGehJb-gpDg" target="_ffKTME4SEeyvGehJb-gpDg" source="_78Y-QE4REeyvGehJb-gpDg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_PBd8QE4TEeyvGehJb-gpDg" target="_k4rVkE4SEeyvGehJb-gpDg" source="_78Y-QE4REeyvGehJb-gpDg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_rpMxsE4TEeyvGehJb-gpDg" target="_VoLKgE4TEeyvGehJb-gpDg" source="_k4rVkE4SEeyvGehJb-gpDg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_9xX4AE4TEeyvGehJb-gpDg" target="_VoLKgE4TEeyvGehJb-gpDg" source="_ffKTME4SEeyvGehJb-gpDg"/>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_dkH38E4UEeyvGehJb-gpDg" target="_VoLKgE4TEeyvGehJb-gpDg" source="_C_3BAE4SEeyvGehJb-gpDg">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_dkay4E4UEeyvGehJb-gpDg" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_dkay4U4UEeyvGehJb-gpDg" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_osq5sE4UEeyvGehJb-gpDg" target="_orxh0E4UEeyvGehJb-gpDg" source="_VoLKgE4TEeyvGehJb-gpDg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_QqpOoE4VEeyvGehJb-gpDg" target="_Qgz9ME4VEeyvGehJb-gpDg" source="_orxh0E4UEeyvGehJb-gpDg"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_rHsSAE4REeyvGehJb-gpDg" name="" outgoing="_2wYMYE4REeyvGehJb-gpDg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_2vL5kE4REeyvGehJb-gpDg" name="Enter Test Result" incoming="_2wYMYE4REeyvGehJb-gpDg" outgoing="_79lREE4REeyvGehJb-gpDg"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_78Y-QE4REeyvGehJb-gpDg" name="" incoming="_79lREE4REeyvGehJb-gpDg" outgoing="_DAmn4E4SEeyvGehJb-gpDg _6l-IcE4SEeyvGehJb-gpDg _PBd8QE4TEeyvGehJb-gpDg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_C_3BAE4SEeyvGehJb-gpDg" name="Current State" incoming="_DAmn4E4SEeyvGehJb-gpDg" outgoing="_dkH38E4UEeyvGehJb-gpDg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_ffKTME4SEeyvGehJb-gpDg" name="Change State Green" incoming="_6l-IcE4SEeyvGehJb-gpDg" outgoing="_9xX4AE4TEeyvGehJb-gpDg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_k4rVkE4SEeyvGehJb-gpDg" name="Change State Red" incoming="_PBd8QE4TEeyvGehJb-gpDg" outgoing="_rpMxsE4TEeyvGehJb-gpDg"/>
+    <node xmi:type="uml:JoinNode" xmi:id="_VoLKgE4TEeyvGehJb-gpDg" name="" incoming="_rpMxsE4TEeyvGehJb-gpDg _9xX4AE4TEeyvGehJb-gpDg _dkH38E4UEeyvGehJb-gpDg" outgoing="_osq5sE4UEeyvGehJb-gpDg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_orxh0E4UEeyvGehJb-gpDg" name="Updatestate" incoming="_osq5sE4UEeyvGehJb-gpDg" outgoing="_QqpOoE4VEeyvGehJb-gpDg"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_Qgz9ME4VEeyvGehJb-gpDg" name="" incoming="_QqpOoE4VEeyvGehJb-gpDg"/>
+  </packagedElement>
+</uml:Model>

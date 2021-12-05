@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_KkALgEPYEeyQDYrUNz3TXw" name="Software">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_KkvyYEPYEeyQDYrUNz3TXw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_a4ZnEEPYEeyQDYrUNz3TXw" name="CrownPass_TestCenter">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_yStH8E6lEeyvGehJb-gpDg">
+      <body>getLastName</body>
+    </ownedComment>
+    <packagedElement xmi:type="uml:Class" xmi:id="_S6IwAEPYEeyQDYrUNz3TXw" name="CrownPassTester">
+      <generalization xmi:type="uml:Generalization" xmi:id="_rsXB4FEdEeyFi6Swem0NcQ" general="_luWMUE6hEeyvGehJb-gpDg"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Cj7rsEPaEeyQDYrUNz3TXw" name="TestCenter" visibility="public" type="_ydXM4FEjEeyFi6Swem0NcQ"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_thj6kEPYEeyQDYrUNz3TXw" name="enterTestResult"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_yogmQEPYEeyQDYrUNz3TXw" name="createCrownPass"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_j75-UE6hEeyvGehJb-gpDg" name="CopyOf_Result_3"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_luWMUE6hEeyvGehJb-gpDg" name="CrownPassholder">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Jp_-gE6mEeyvGehJb-gpDg" name="CrownPassID" visibility="public" type="_VvWfYFEaEeyFi6Swem0NcQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_RhhzUFCGEeyvGehJb-gpDg" name="FirstName" visibility="public">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_icYysFEaEeyFi6Swem0NcQ" name="LastName">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_qEArYFEaEeyFi6Swem0NcQ" name="ContactDetails" type="_OT0FcFEbEeyFi6Swem0NcQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_QP0fIFEbEeyFi6Swem0NcQ" name="PhotoFilePath">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ipaFkFEbEeyFi6Swem0NcQ" name="QRCodeFilePath">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="__B16wFEbEeyFi6Swem0NcQ" name="Gender">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_C93rcFEcEeyFi6Swem0NcQ" name="DateOfBirth" type="_TlryQFEcEeyFi6Swem0NcQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_bO4_UFEcEeyFi6Swem0NcQ" name="VaccinationState" type="_l9EZQFEcEeyFi6Swem0NcQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_p8TO8FEcEeyFi6Swem0NcQ" name="InfectionState" type="_wnDPsFEcEeyFi6Swem0NcQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_xPLmsFEcEeyFi6Swem0NcQ" name="VisitationHistory" type="_4bQy4FEcEeyFi6Swem0NcQ"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_QjaM8FCAEeyvGehJb-gpDg" name="CheckIn"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_VF1PQFCAEeyvGehJb-gpDg" name="CheckOut"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_YJcKMFCAEeyvGehJb-gpDg" name="PrintPass"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_Hv5akFEdEeyFi6Swem0NcQ" name="NotifyUser"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_MQBW0FEdEeyFi6Swem0NcQ" name="BookVaccination"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_OsNFYFEdEeyFi6Swem0NcQ" name="DisplayPass"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_4sNAoE6lEeyvGehJb-gpDg" name="CopyOf_CrownpassUser_6">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_4sNAoU6lEeyvGehJb-gpDg" name="firstName" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_4sNAok6lEeyvGehJb-gpDg" name="lastName" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_4sNAo06lEeyvGehJb-gpDg" name="age" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_4sNApE6lEeyvGehJb-gpDg" name="crownpassID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_4sNApU6lEeyvGehJb-gpDg" name="photo" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#UnlimitedNatural"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_4sNApk6lEeyvGehJb-gpDg" name="phoneNumber" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_4sNAp06lEeyvGehJb-gpDg" name="getLastName"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_4sNAqE6lEeyvGehJb-gpDg" name="getFirstName"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_4sNAqU6lEeyvGehJb-gpDg" name="getPhoto"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_4sNAqk6lEeyvGehJb-gpDg" name="getPhoneNumber"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_4sNAq06lEeyvGehJb-gpDg" name="getCrownpassID"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_4sNArE6lEeyvGehJb-gpDg" name="CrownpassUser">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_4sNArU6lEeyvGehJb-gpDg" name="lastName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_4sNArk6lEeyvGehJb-gpDg" name="firstName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_4sNAr06lEeyvGehJb-gpDg" name="crownpassid">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_4sNAsE6lEeyvGehJb-gpDg" name="photoid">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#UnlimitedNatural"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_n5pPYE4WEeyvGehJb-gpDg" name="TestResult">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_-kowcE6hEeyvGehJb-gpDg" name="crownPassId" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_DUntoE6iEeyvGehJb-gpDg" name="resultState" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_B7OR0FBPEeyvGehJb-gpDg" name="resultColor" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_KD3M0E6iEeyvGehJb-gpDg" name="getCrownpassID"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_OhhD4E6iEeyvGehJb-gpDg" name="getCownpassResult"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_Sp2yQE6iEeyvGehJb-gpDg" name="Result">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_azGxUE6iEeyvGehJb-gpDg" name="crownpassid">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_mPAM4E6iEeyvGehJb-gpDg" name="result">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_5i8sUFEfEeyFi6Swem0NcQ" name="InfectionColor">
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_-HwUQFEfEeyFi6Swem0NcQ" name="Green"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_CQKUEFEgEeyFi6Swem0NcQ" name="Amber"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_Ds4wwFEgEeyFi6Swem0NcQ" name="Red"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_LTaLUFEiEeyFi6Swem0NcQ" name="TestCenter">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_RkCb4FEiEeyFi6Swem0NcQ" name="contactdetails" type="_OT0FcFEbEeyFi6Swem0NcQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_TkDL0FEiEeyFi6Swem0NcQ" name="centerName">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_V4tWEFEiEeyFi6Swem0NcQ" name="centerID" type="_VvWfYFEaEeyFi6Swem0NcQ"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_VvWfYFEaEeyFi6Swem0NcQ" name="uint64"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_OT0FcFEbEeyFi6Swem0NcQ" name="ContactDetails"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_TlryQFEcEeyFi6Swem0NcQ" name="DateTime"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_l9EZQFEcEeyFi6Swem0NcQ" name="VaccinationColor"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_wnDPsFEcEeyFi6Swem0NcQ" name="InfectionColor"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_4bQy4FEcEeyFi6Swem0NcQ" name="Visit"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_4zaQUFEgEeyFi6Swem0NcQ" memberEnd="_4zbeclEgEeyFi6Swem0NcQ _4zg-AFEgEeyFi6Swem0NcQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4zbecFEgEeyFi6Swem0NcQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4zbecVEgEeyFi6Swem0NcQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4zg-AFEgEeyFi6Swem0NcQ" name="testresult" type="_n5pPYE4WEeyvGehJb-gpDg" association="_4zaQUFEgEeyFi6Swem0NcQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4zbeclEgEeyFi6Swem0NcQ" name="crownpasstester" type="_S6IwAEPYEeyQDYrUNz3TXw" association="_4zaQUFEgEeyFi6Swem0NcQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7XZ3EFEgEeyFi6Swem0NcQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7YRZwFEgEeyFi6Swem0NcQ" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Ti3DkFEjEeyFi6Swem0NcQ" memberEnd="_Ti44wFEjEeyFi6Swem0NcQ _Ti5f0FEjEeyFi6Swem0NcQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ti4RsFEjEeyFi6Swem0NcQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Ti4RsVEjEeyFi6Swem0NcQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Ti44wFEjEeyFi6Swem0NcQ" name="testcenter" type="_LTaLUFEiEeyFi6Swem0NcQ" association="_Ti3DkFEjEeyFi6Swem0NcQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Ti5f0FEjEeyFi6Swem0NcQ" name="crownpasstester" type="_S6IwAEPYEeyQDYrUNz3TXw" association="_Ti3DkFEjEeyFi6Swem0NcQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7_AiQFEjEeyFi6Swem0NcQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7_S2IFEjEeyFi6Swem0NcQ" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_ydXM4FEjEeyFi6Swem0NcQ" name="TestCenter"/>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Bn2tAE6mEeyvGehJb-gpDg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Bn2tAU6mEeyvGehJb-gpDg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Model>
