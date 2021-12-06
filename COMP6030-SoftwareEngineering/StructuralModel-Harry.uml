@@ -153,7 +153,30 @@
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_X9cYwEbAEey0h838tHFP-w" value="*"/>
     </ownedAttribute>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_yEhRgEbPEey0h838tHFP-w" name="CONTACT_ID" type="_0U9KoESAEey0h838tHFP-w"/>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="__6OuAEbYEey0h838tHFP-w" name="EmailUser"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="__6OuAEbYEey0h838tHFP-w" name="getContactID">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_682KIFaTEeys8_ciQwEzRA" type="_0U9KoESAEey0h838tHFP-w" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_w4B2QFaTEeys8_ciQwEzRA" name="getEmail">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_C0D-AFaUEeys8_ciQwEzRA" type="_ISFAYESBEey0h838tHFP-w" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_xy8mYFaTEeys8_ciQwEzRA" name="getMobileNumber" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_JWRt0FaUEeys8_ciQwEzRA" type="_0U9KoESAEey0h838tHFP-w" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_zRJCsFaTEeys8_ciQwEzRA" name="getAddress">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_NVKlQFaUEeys8_ciQwEzRA" type="_Grcc8ESFEey0h838tHFP-w" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_0Ml-UFaTEeys8_ciQwEzRA" name="setEmail">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_RIwLoFaUEeys8_ciQwEzRA" type="_ISFAYESBEey0h838tHFP-w" effect="update"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_YX89QFaUEeys8_ciQwEzRA" type="_C2Gs4FKYEeykwq5R-H2-iA" direction="return" effect="update"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_1GJcgFaTEeys8_ciQwEzRA" name="setMobileNumber">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_b9WWoFaUEeys8_ciQwEzRA" type="_0U9KoESAEey0h838tHFP-w" effect="update"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_fULvkFaUEeys8_ciQwEzRA" type="_C2Gs4FKYEeykwq5R-H2-iA" direction="return" effect="update"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_2ZhI4FaTEeys8_ciQwEzRA" name="setAddress">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_jscJQFaUEeys8_ciQwEzRA" type="_Grcc8ESFEey0h838tHFP-w" effect="update"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_lj-SoFaUEeys8_ciQwEzRA" type="_C2Gs4FKYEeykwq5R-H2-iA" direction="return" effect="update"/>
+    </ownedOperation>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_XkyAUER_Eey0h838tHFP-w" name="Visit">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_Iv59IESHEey0h838tHFP-w" name="CrownPassHolder" type="_-kZhgER9Eey0h838tHFP-w"/>
@@ -164,6 +187,37 @@
     <ownedAttribute xmi:type="uml:Property" xmi:id="_hQ4YkESHEey0h838tHFP-w" name="ControlledArea" type="_se7lYESHEey0h838tHFP-w" isUnique="false"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_L7jL0EbOEey0h838tHFP-w" name="VISIT_ID" type="_0U9KoESAEey0h838tHFP-w"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_Ba5uA0bCEey0h838tHFP-w" name="controlledarea" type="_se7lYESHEey0h838tHFP-w" association="_Ba5uAEbCEey0h838tHFP-w"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_imZcUFaWEeys8_ciQwEzRA" name="getVisitID">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_YTrkcFaYEeys8_ciQwEzRA" type="_0U9KoESAEey0h838tHFP-w" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_jyy-AFaWEeys8_ciQwEzRA" name="getControlledArea">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_bHM08FaYEeys8_ciQwEzRA" type="_se7lYESHEey0h838tHFP-w" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_qozzkFaWEeys8_ciQwEzRA" name="getCrownPassHolder">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_ehcuQFaYEeys8_ciQwEzRA" type="_-kZhgER9Eey0h838tHFP-w" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_sMDH8FaWEeys8_ciQwEzRA" name="getCheckInTime">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_jekIgFaYEeys8_ciQwEzRA" type="_mzCL0ESCEey0h838tHFP-w" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_tPqhEFaWEeys8_ciQwEzRA" name="getCheckOutTime">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_mJNw4FaYEeys8_ciQwEzRA" type="_mzCL0ESCEey0h838tHFP-w" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_uSi6YFaWEeys8_ciQwEzRA" name="setControlledArea">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_qjduoFaYEeys8_ciQwEzRA" type="_se7lYESHEey0h838tHFP-w" effect="update"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_tLgu8FaYEeys8_ciQwEzRA" type="_C2Gs4FKYEeykwq5R-H2-iA" direction="return" effect="update"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_vaGYUFaWEeys8_ciQwEzRA" name="setCrownPassHolder">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_0pbSAFaYEeys8_ciQwEzRA" type="_-kZhgER9Eey0h838tHFP-w" effect="update"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_3f-oYFaYEeys8_ciQwEzRA" type="_C2Gs4FKYEeykwq5R-H2-iA" direction="return" effect="update"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_xSe2QFaWEeys8_ciQwEzRA" name="setCheckInTime">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_9GchoFaYEeys8_ciQwEzRA" type="_mzCL0ESCEey0h838tHFP-w" effect="update"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="__wQcgFaYEeys8_ciQwEzRA" type="_C2Gs4FKYEeykwq5R-H2-iA" direction="return" effect="update"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_yjKbAFaWEeys8_ciQwEzRA" name="setCheckOutTime">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_DbuBoFaZEeys8_ciQwEzRA" type="_mzCL0ESCEey0h838tHFP-w" effect="update"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_FWynMFaZEeys8_ciQwEzRA" type="_C2Gs4FKYEeykwq5R-H2-iA" direction="return" effect="update"/>
+    </ownedOperation>
   </packagedElement>
   <packagedElement xmi:type="uml:DataType" xmi:id="_0U9KoESAEey0h838tHFP-w" name="uint64"/>
   <packagedElement xmi:type="uml:DataType" xmi:id="_ISFAYESBEey0h838tHFP-w" name="string"/>
@@ -180,6 +234,44 @@
     <ownedAttribute xmi:type="uml:Property" xmi:id="_jElcwESFEey0h838tHFP-w" name="PostCode" type="_ISFAYESBEey0h838tHFP-w" isUnique="false"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_tEHoAESFEey0h838tHFP-w" name="TownCity" type="_ISFAYESBEey0h838tHFP-w" isUnique="false"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_2uiwoEbPEey0h838tHFP-w" name="ADDRESS_ID" type="_0U9KoESAEey0h838tHFP-w"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_m5kMkFaUEeys8_ciQwEzRA" name="getAddressID">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_4YfhkFaUEeys8_ciQwEzRA" type="_0U9KoESAEey0h838tHFP-w" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_oRN8AFaUEeys8_ciQwEzRA" name="getHouseNameNumber">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_7X4q4FaUEeys8_ciQwEzRA" type="_ISFAYESBEey0h838tHFP-w" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_pbCDwFaUEeys8_ciQwEzRA" name="getStreetName">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_-oDbIFaUEeys8_ciQwEzRA" type="_ISFAYESBEey0h838tHFP-w" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_quEY8FaUEeys8_ciQwEzRA" name="getTownCity">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_BS9iMFaVEeys8_ciQwEzRA" type="_ISFAYESBEey0h838tHFP-w" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_sDXX8FaUEeys8_ciQwEzRA" name="getCounty">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_Dpq64FaVEeys8_ciQwEzRA" type="_ISFAYESBEey0h838tHFP-w" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_tBGykFaUEeys8_ciQwEzRA" name="getPostCode">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_IdUQEFaVEeys8_ciQwEzRA" type="_ISFAYESBEey0h838tHFP-w" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_usSiAFaUEeys8_ciQwEzRA" name="setHouseNameNumber">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_LS0dkFaVEeys8_ciQwEzRA" type="_ISFAYESBEey0h838tHFP-w" effect="update"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_NM6ywFaVEeys8_ciQwEzRA" type="_C2Gs4FKYEeykwq5R-H2-iA" direction="return" effect="update"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_v0fgMFaUEeys8_ciQwEzRA" name="setStreetName">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_QYNDAFaVEeys8_ciQwEzRA" type="_ISFAYESBEey0h838tHFP-w" effect="update"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_So56UFaVEeys8_ciQwEzRA" type="_C2Gs4FKYEeykwq5R-H2-iA" direction="return" effect="update"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_w4qS8FaUEeys8_ciQwEzRA" name="setTownCity">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_VFRPEFaVEeys8_ciQwEzRA" type="_ISFAYESBEey0h838tHFP-w" effect="update"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_XhVB0FaVEeys8_ciQwEzRA" type="_C2Gs4FKYEeykwq5R-H2-iA" direction="return" effect="update"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_xzh_wFaUEeys8_ciQwEzRA" name="setCounty">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_Z5tOcFaVEeys8_ciQwEzRA" type="_ISFAYESBEey0h838tHFP-w" effect="update"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_cZ5TQFaVEeys8_ciQwEzRA" type="_C2Gs4FKYEeykwq5R-H2-iA" direction="return" effect="update"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_y6fn0FaUEeys8_ciQwEzRA" name="setPostCode">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_e32jcFaVEeys8_ciQwEzRA" type="_ISFAYESBEey0h838tHFP-w" effect="update"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_hR1SkFaVEeys8_ciQwEzRA" type="_C2Gs4FKYEeykwq5R-H2-iA" direction="return" effect="update"/>
+    </ownedOperation>
   </packagedElement>
   <packagedElement xmi:type="uml:Enumeration" xmi:id="_KvTegESGEey0h838tHFP-w" name="EVaccinationColor">
     <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_MP2rQESGEey0h838tHFP-w" name="White"/>
@@ -198,6 +290,60 @@
     <ownedAttribute xmi:type="uml:Property" xmi:id="_53GeAEbEEey0h838tHFP-w" name="Capacity" type="_KGalQEbFEey0h838tHFP-w" isUnique="false"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_HJkqkEbOEey0h838tHFP-w" name="AreaName" type="_ISFAYESBEey0h838tHFP-w" isUnique="false"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_sdR8MEbPEey0h838tHFP-w" name="AREA_ID" type="_0U9KoESAEey0h838tHFP-w"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_7R-iEFaSEeys8_ciQwEzRA" name="VaccinationEntryConditions" type="_KvTegESGEey0h838tHFP-w" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_DXpBoFaTEeys8_ciQwEzRA" name="InfectionEntryConditions" type="_hHtD4ESGEey0h838tHFP-w" isUnique="false"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_I0e2EFaZEeys8_ciQwEzRA" name="getAreaID">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_pXgcYFaZEeys8_ciQwEzRA" type="_0U9KoESAEey0h838tHFP-w" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_LC4AQFaZEeys8_ciQwEzRA" name="getAreaName">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_s4hsEFaZEeys8_ciQwEzRA" type="_ISFAYESBEey0h838tHFP-w" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_L5DaUFaZEeys8_ciQwEzRA" name="getType">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_wT6N0FaZEeys8_ciQwEzRA" type="_dF8-UESJEey0h838tHFP-w" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Mui34FaZEeys8_ciQwEzRA" name="getContactDetails">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_zQ0D0FaZEeys8_ciQwEzRA" type="_93e7sER-Eey0h838tHFP-w" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_NklvEFaZEeys8_ciQwEzRA" name="getAreaOwner">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_30viAFaZEeys8_ciQwEzRA" type="_kJLV0EbAEey0h838tHFP-w" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_OWgUMFaZEeys8_ciQwEzRA" name="getCapacity">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_6bFSIFaZEeys8_ciQwEzRA" type="_KGalQEbFEey0h838tHFP-w" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_PFBnEFaZEeys8_ciQwEzRA" name="getVaccinationEntryConditions">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="__aLpYFaZEeys8_ciQwEzRA" type="_KvTegESGEey0h838tHFP-w" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_QuZ_sFaZEeys8_ciQwEzRA" name="getInfectionEntryConditions">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_EngC0FaaEeys8_ciQwEzRA" type="_hHtD4ESGEey0h838tHFP-w" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_a87pMFaZEeys8_ciQwEzRA" name="setAreaName">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_Hk4Z8FaaEeys8_ciQwEzRA" type="_ISFAYESBEey0h838tHFP-w" effect="update"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_JV5roFaaEeys8_ciQwEzRA" type="_C2Gs4FKYEeykwq5R-H2-iA" direction="return" effect="update"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_b2CbcFaZEeys8_ciQwEzRA" name="setType">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_M_N7sFaaEeys8_ciQwEzRA" type="_dF8-UESJEey0h838tHFP-w" effect="update"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_PCXfMFaaEeys8_ciQwEzRA" type="_C2Gs4FKYEeykwq5R-H2-iA" direction="return" effect="update"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_dD9nIFaZEeys8_ciQwEzRA" name="setContactDetails">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_S3FG8FaaEeys8_ciQwEzRA" type="_93e7sER-Eey0h838tHFP-w" effect="update"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_VGbTYFaaEeys8_ciQwEzRA" type="_C2Gs4FKYEeykwq5R-H2-iA" direction="return" effect="update"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_en_lsFaZEeys8_ciQwEzRA" name="setAreaOwner">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_Z7JmoFaaEeys8_ciQwEzRA" type="_kJLV0EbAEey0h838tHFP-w" effect="update"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_chNp8FaaEeys8_ciQwEzRA" type="_C2Gs4FKYEeykwq5R-H2-iA" direction="return" effect="update"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_fx-FgFaZEeys8_ciQwEzRA" name="setCapacity">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_e_UEEFaaEeys8_ciQwEzRA" type="_KGalQEbFEey0h838tHFP-w" effect="update"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_ihiNoFaaEeys8_ciQwEzRA" type="_C2Gs4FKYEeykwq5R-H2-iA" direction="return" effect="update"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_gybc8FaZEeys8_ciQwEzRA" name="setVaccinationEntryConditions">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_mBr6oFaaEeys8_ciQwEzRA" type="_KvTegESGEey0h838tHFP-w" effect="update"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_qq79sFaaEeys8_ciQwEzRA" type="_C2Gs4FKYEeykwq5R-H2-iA" direction="return" effect="update"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_izD38FaZEeys8_ciQwEzRA" name="setInfectionEntryConditions">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_uRLroFaaEeys8_ciQwEzRA" type="_hHtD4ESGEey0h838tHFP-w" effect="update"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_wBtOEFaaEeys8_ciQwEzRA" type="_C2Gs4FKYEeykwq5R-H2-iA" direction="return" effect="update"/>
+    </ownedOperation>
   </packagedElement>
   <packagedElement xmi:type="uml:Enumeration" xmi:id="_dF8-UESJEey0h838tHFP-w" name="EAreaType">
     <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_eUz-IESJEey0h838tHFP-w" name="Restaurant"/>
@@ -236,7 +382,13 @@
   <packagedElement xmi:type="uml:Class" xmi:id="_kJLV0EbAEey0h838tHFP-w" name="AreaOwner">
     <generalization xmi:type="uml:Generalization" xmi:id="_qACbgEbAEey0h838tHFP-w" general="_-kZhgER9Eey0h838tHFP-w"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_m2Zw0FEjEeykwq5R-H2-iA" name="ControlledArea" type="_se7lYESHEey0h838tHFP-w"/>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_BDoSsFEkEeykwq5R-H2-iA" name="RegisterArea"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Je2QcFaTEeys8_ciQwEzRA" name="getControlledArea">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_QasoQFaTEeys8_ciQwEzRA" type="_se7lYESHEey0h838tHFP-w" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_RO66gFaTEeys8_ciQwEzRA" name="setControlledArea" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_Xvr40FaTEeys8_ciQwEzRA" type="_se7lYESHEey0h838tHFP-w" effect="update"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_fSe74FaTEeys8_ciQwEzRA" type="_C2Gs4FKYEeykwq5R-H2-iA" direction="return" effect="update"/>
+    </ownedOperation>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_Ba5uAEbCEey0h838tHFP-w" memberEnd="_Ba5uA0bCEey0h838tHFP-w _Ba5uBEbCEey0h838tHFP-w">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ba5uAUbCEey0h838tHFP-w" source="org.eclipse.papyrus">
@@ -282,6 +434,37 @@
     <ownedAttribute xmi:type="uml:Property" xmi:id="_my5JsFKrEeykwq5R-H2-iA" name="Location" type="_se7lYESHEey0h838tHFP-w"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_Eef28FKsEeykwq5R-H2-iA" name="AppointmentTime" type="_mzCL0ESCEey0h838tHFP-w"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_WNN7cFKsEeykwq5R-H2-iA" name="AppointmentType" type="_fZEnAFKsEeykwq5R-H2-iA"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_i3YUEFaVEeys8_ciQwEzRA" name="getAppointmentID">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_y8L0cFaVEeys8_ciQwEzRA" type="_0U9KoESAEey0h838tHFP-w" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_kMY_MFaVEeys8_ciQwEzRA" name="getPatient">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_3ghiUFaVEeys8_ciQwEzRA" type="_-kZhgER9Eey0h838tHFP-w" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_lyn9MFaVEeys8_ciQwEzRA" name="getLocation">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_60RyEFaVEeys8_ciQwEzRA" type="_se7lYESHEey0h838tHFP-w" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_nA68UFaVEeys8_ciQwEzRA" name="getAppointmentTime">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="__1qBQFaVEeys8_ciQwEzRA" type="_mzCL0ESCEey0h838tHFP-w" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_oUKs4FaVEeys8_ciQwEzRA" name="getAppointmentType">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_DPV54FaWEeys8_ciQwEzRA" type="_fZEnAFKsEeykwq5R-H2-iA" direction="return" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_pXvpwFaVEeys8_ciQwEzRA" name="setPatient">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_IQ-nwFaWEeys8_ciQwEzRA" type="_-kZhgER9Eey0h838tHFP-w" effect="update"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_KmdRYFaWEeys8_ciQwEzRA" type="_C2Gs4FKYEeykwq5R-H2-iA" direction="return" effect="update"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_qexjQFaVEeys8_ciQwEzRA" name="setLocation">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_NX43MFaWEeys8_ciQwEzRA" type="_se7lYESHEey0h838tHFP-w" effect="update"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_QIEf0FaWEeys8_ciQwEzRA" type="_C2Gs4FKYEeykwq5R-H2-iA" direction="return" effect="update"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_rmmG8FaVEeys8_ciQwEzRA" name="setAppointmentTime">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_TT8l8FaWEeys8_ciQwEzRA" type="_mzCL0ESCEey0h838tHFP-w" effect="update"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_VnhyIFaWEeys8_ciQwEzRA" type="_C2Gs4FKYEeykwq5R-H2-iA" direction="return" effect="update"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_tfI88FaVEeys8_ciQwEzRA" name="setAppointmentType">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_aiRN0FaWEeys8_ciQwEzRA" type="_fZEnAFKsEeykwq5R-H2-iA" effect="update"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_cfLmcFaWEeys8_ciQwEzRA" type="_C2Gs4FKYEeykwq5R-H2-iA" direction="return" effect="update"/>
+    </ownedOperation>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_REuXoFKsEeykwq5R-H2-iA" memberEnd="_RFB5oFKsEeykwq5R-H2-iA _RFDu0FKsEeykwq5R-H2-iA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_RE590FKsEeykwq5R-H2-iA" source="org.eclipse.papyrus">
@@ -293,7 +476,7 @@
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZG3pIFKsEeykwq5R-H2-iA" value="*"/>
     </ownedEnd>
   </packagedElement>
-  <packagedElement xmi:type="uml:Enumeration" xmi:id="_fZEnAFKsEeykwq5R-H2-iA" name="AppointmentType">
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_fZEnAFKsEeykwq5R-H2-iA" name="EAppointmentType">
     <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_iGLGcFKsEeykwq5R-H2-iA" name="Testing"/>
     <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_j9IoEFKsEeykwq5R-H2-iA" name="Vaccination"/>
   </packagedElement>

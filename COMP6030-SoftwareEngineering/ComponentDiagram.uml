@@ -38,9 +38,9 @@
       <packagedElement xmi:type="uml:Usage" xmi:id="_KT8O8FQuEeykwq5R-H2-iA" client="_dVl5YEoGEeyzQ5mwk6lZBw" supplier="_v6vtoFQtEeykwq5R-H2-iA"/>
       <packagedElement xmi:type="uml:Usage" xmi:id="_MsDV0FQuEeykwq5R-H2-iA" client="_dVl5YEoGEeyzQ5mwk6lZBw" supplier="_OsKlsFQpEeykwq5R-H2-iA"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Interface" xmi:id="_dQRPsFQmEeykwq5R-H2-iA" name="CheckIn"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_dQRPsFQmEeykwq5R-H2-iA" name="Check-In"/>
     <packagedElement xmi:type="uml:Interface" xmi:id="_B6oe0FQnEeykwq5R-H2-iA" name="Get CrownPass"/>
-    <packagedElement xmi:type="uml:Interface" xmi:id="_j3XDAFQnEeykwq5R-H2-iA" name="Check Out"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_j3XDAFQnEeykwq5R-H2-iA" name="Check-Out"/>
     <packagedElement xmi:type="uml:Interface" xmi:id="_aBMZsFQoEeykwq5R-H2-iA" name="Notify"/>
     <packagedElement xmi:type="uml:Interface" xmi:id="_lLkncFQoEeykwq5R-H2-iA" name="Book Vaccination"/>
     <packagedElement xmi:type="uml:Interface" xmi:id="_OsKlsFQpEeykwq5R-H2-iA" name="Login"/>
@@ -48,26 +48,4 @@
     <packagedElement xmi:type="uml:Interface" xmi:id="_v6vtoFQtEeykwq5R-H2-iA" name="Manage Vaccination Status"/>
     <packagedElement xmi:type="uml:Interface" xmi:id="_ubLtcFQvEeykwq5R-H2-iA" name="Manage Area"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Component" xmi:id="_p-xHwEoDEeyzQ5mwk6lZBw" name="Appointments Service">
-    <packagedElement xmi:type="uml:Usage" xmi:id="_PQxH0FEZEeykwq5R-H2-iA" client="_p-xHwEoDEeyzQ5mwk6lZBw" supplier="_JxfWsEn9EeyzQ5mwk6lZBw"/>
-    <packagedElement xmi:type="uml:Usage" xmi:id="_tggZcFQlEeykwq5R-H2-iA" client="_p-xHwEoDEeyzQ5mwk6lZBw" supplier="_aogYsFQlEeykwq5R-H2-iA"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Component" xmi:id="_nNmIAEoAEeyzQ5mwk6lZBw" name="Notifications Service">
-    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_jcVl0FQlEeykwq5R-H2-iA" client="_nNmIAEoAEeyzQ5mwk6lZBw" supplier="_aogYsFQlEeykwq5R-H2-iA" contract="_aogYsFQlEeykwq5R-H2-iA"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Component" xmi:id="_xfKyMFEWEeykwq5R-H2-iA" name="Vaccine Centre Staff Management Service"/>
-  <packagedElement xmi:type="uml:Component" xmi:id="_JxfWsEn9EeyzQ5mwk6lZBw" name="CrownPass Holder Management Service">
-    <packagedElement xmi:type="uml:Usage" xmi:id="_hZI_AFQlEeykwq5R-H2-iA" client="_JxfWsEn9EeyzQ5mwk6lZBw" supplier="_aogYsFQlEeykwq5R-H2-iA"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Component" xmi:id="_p4AVQEn_EeyzQ5mwk6lZBw" name="Statistics Service" visibility="public"/>
-  <packagedElement xmi:type="uml:Component" xmi:id="_MxyO0FEXEeykwq5R-H2-iA" name="Area Owner Management Service"/>
-  <packagedElement xmi:type="uml:Component" xmi:id="_3_4gQFNSEeykwq5R-H2-iA" name="Track and Trace Service"/>
-  <packagedElement xmi:type="uml:Component" xmi:id="_O-BOIFEdEeykwq5R-H2-iA" name="CrownPass Tester Management Service"/>
-  <packagedElement xmi:type="uml:Component" xmi:id="_MRbfsEoEEeyzQ5mwk6lZBw" name="Registration Service">
-    <packagedElement xmi:type="uml:Usage" xmi:id="_HJzV0FEbEeykwq5R-H2-iA" client="_MRbfsEoEEeyzQ5mwk6lZBw" supplier="_JxfWsEn9EeyzQ5mwk6lZBw"/>
-    <packagedElement xmi:type="uml:Usage" xmi:id="_fbAP4FEbEeykwq5R-H2-iA" client="_MRbfsEoEEeyzQ5mwk6lZBw" supplier="_xfKyMFEWEeykwq5R-H2-iA"/>
-    <packagedElement xmi:type="uml:Usage" xmi:id="_b0jRIFEcEeykwq5R-H2-iA" client="_MRbfsEoEEeyzQ5mwk6lZBw" supplier="_MxyO0FEXEeykwq5R-H2-iA"/>
-    <packagedElement xmi:type="uml:Usage" xmi:id="_mD89AFEfEeykwq5R-H2-iA" client="_MRbfsEoEEeyzQ5mwk6lZBw" supplier="_O-BOIFEdEeykwq5R-H2-iA"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Interface" xmi:id="_aogYsFQlEeykwq5R-H2-iA" name="Notify User"/>
 </uml:Model>
