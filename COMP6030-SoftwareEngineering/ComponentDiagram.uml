@@ -14,6 +14,7 @@
       <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_iMwbAFQqEeykwq5R-H2-iA" client="_lMa9oEoEEeyzQ5mwk6lZBw" supplier="_cdwQ0FQqEeykwq5R-H2-iA" contract="_cdwQ0FQqEeykwq5R-H2-iA"/>
       <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_A5wzgFQuEeykwq5R-H2-iA" client="_lMa9oEoEEeyzQ5mwk6lZBw" supplier="_v6vtoFQtEeykwq5R-H2-iA" contract="_v6vtoFQtEeykwq5R-H2-iA"/>
       <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_2tNOAFQvEeykwq5R-H2-iA" client="_lMa9oEoEEeyzQ5mwk6lZBw" supplier="_ubLtcFQvEeykwq5R-H2-iA" contract="_ubLtcFQvEeykwq5R-H2-iA"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_1faDgFazEeys8_ciQwEzRA" client="_lMa9oEoEEeyzQ5mwk6lZBw" supplier="_vu8gwFazEeys8_ciQwEzRA" contract="_vu8gwFazEeys8_ciQwEzRA"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Component" xmi:id="_1fzQEEoFEeyzQ5mwk6lZBw" name="CrownPass Owner App">
       <packagedElement xmi:type="uml:Usage" xmi:id="_-kkL0FQvEeykwq5R-H2-iA" client="_1fzQEEoFEeyzQ5mwk6lZBw" supplier="_ubLtcFQvEeykwq5R-H2-iA"/>
@@ -28,6 +29,7 @@
       <packagedElement xmi:type="uml:Usage" xmi:id="_v5SHUFQoEeykwq5R-H2-iA" client="_A-8M4EoGEeyzQ5mwk6lZBw" supplier="_aBMZsFQoEeykwq5R-H2-iA"/>
       <packagedElement xmi:type="uml:Usage" xmi:id="_9__jUFQoEeykwq5R-H2-iA" client="_A-8M4EoGEeyzQ5mwk6lZBw" supplier="_lLkncFQoEeykwq5R-H2-iA"/>
       <packagedElement xmi:type="uml:Usage" xmi:id="_cM4_wFQpEeykwq5R-H2-iA" client="_A-8M4EoGEeyzQ5mwk6lZBw" supplier="_OsKlsFQpEeykwq5R-H2-iA"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_AoROUFa0Eeys8_ciQwEzRA" client="_A-8M4EoGEeyzQ5mwk6lZBw" supplier="_vu8gwFazEeys8_ciQwEzRA"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Component" xmi:id="_cjPPYEoGEeyzQ5mwk6lZBw" name="CrownPass Tester App">
       <packagedElement xmi:type="uml:Usage" xmi:id="_afkiUFQpEeykwq5R-H2-iA" client="_cjPPYEoGEeyzQ5mwk6lZBw" supplier="_OsKlsFQpEeykwq5R-H2-iA"/>
@@ -47,5 +49,6 @@
     <packagedElement xmi:type="uml:Interface" xmi:id="_cdwQ0FQqEeykwq5R-H2-iA" name="Manage Test Results"/>
     <packagedElement xmi:type="uml:Interface" xmi:id="_v6vtoFQtEeykwq5R-H2-iA" name="Manage Vaccination Status"/>
     <packagedElement xmi:type="uml:Interface" xmi:id="_ubLtcFQvEeykwq5R-H2-iA" name="Manage Area"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_vu8gwFazEeys8_ciQwEzRA" name="Get Visits"/>
   </packagedElement>
 </uml:Model>
