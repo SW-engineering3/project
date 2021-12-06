@@ -48,9 +48,36 @@
         </ownedOperation>
       </nestedClassifier>
       <nestedClassifier xmi:type="uml:Interface" xmi:id="_0Uo0IFagEeys8_ciQwEzRA" name="Add Notifications">
-        <ownedOperation xmi:type="uml:Operation" xmi:id="_JpSdgFahEeys8_ciQwEzRA" name="addNotification"/>
-        <ownedOperation xmi:type="uml:Operation" xmi:id="_Pv85wFahEeys8_ciQwEzRA" name="updateNotification"/>
-        <ownedOperation xmi:type="uml:Operation" xmi:id="_Q4hrYFahEeys8_ciQwEzRA" name="deleteNotification"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_JpSdgFahEeys8_ciQwEzRA" name="addNotification">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_twlG4FbEEeys8_ciQwEzRA" name="CrownPassID">
+            <type xmi:type="uml:DataType" href="StructuralModel-Harry.uml#_0U9KoESAEey0h838tHFP-w"/>
+          </ownedParameter>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_v7thsFbEEeys8_ciQwEzRA" name="NotificationData">
+            <type xmi:type="uml:DataType" href="StructuralModel-Harry.uml#_ISFAYESBEey0h838tHFP-w"/>
+          </ownedParameter>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_31zDYFbEEeys8_ciQwEzRA" direction="return">
+            <type xmi:type="uml:DataType" href="StructuralModel-Harry.uml#_C2Gs4FKYEeykwq5R-H2-iA"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_Pv85wFahEeys8_ciQwEzRA" name="updateNotification" concurrency="concurrent">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_7RBNEFbEEeys8_ciQwEzRA" name="NotificationID" effect="update">
+            <type xmi:type="uml:DataType" href="StructuralModel-Harry.uml#_0U9KoESAEey0h838tHFP-w"/>
+          </ownedParameter>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_9qtoUFbEEeys8_ciQwEzRA" name="NotificationData" effect="update">
+            <type xmi:type="uml:DataType" href="StructuralModel-Harry.uml#_ISFAYESBEey0h838tHFP-w"/>
+          </ownedParameter>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="__06PAFbEEeys8_ciQwEzRA" direction="return" effect="update">
+            <type xmi:type="uml:DataType" href="StructuralModel-Harry.uml#_C2Gs4FKYEeykwq5R-H2-iA"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_Q4hrYFahEeys8_ciQwEzRA" name="deleteNotification">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_CtEH4FbFEeys8_ciQwEzRA" name="NotificationID" effect="delete">
+            <type xmi:type="uml:DataType" href="StructuralModel-Harry.uml#_0U9KoESAEey0h838tHFP-w"/>
+          </ownedParameter>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_EL42UFbFEeys8_ciQwEzRA" direction="return" effect="delete">
+            <type xmi:type="uml:DataType" href="StructuralModel-Harry.uml#_C2Gs4FKYEeykwq5R-H2-iA"/>
+          </ownedParameter>
+        </ownedOperation>
       </nestedClassifier>
       <packagedElement xmi:type="uml:Component" xmi:id="__DoqQFacEeys8_ciQwEzRA" name="Authentication/Registration Service">
         <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_HQldkFadEeys8_ciQwEzRA" client="__DoqQFacEeys8_ciQwEzRA" supplier="_FHGokFadEeys8_ciQwEzRA" contract="_FHGokFadEeys8_ciQwEzRA"/>
@@ -69,7 +96,7 @@
         <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_3GXU4FagEeys8_ciQwEzRA" client="_rIYAQFadEeys8_ciQwEzRA" supplier="_0Uo0IFagEeys8_ciQwEzRA" contract="_0Uo0IFagEeys8_ciQwEzRA"/>
         <packagedElement xmi:type="uml:Usage" xmi:id="_QeAC0FayEeys8_ciQwEzRA" client="_rIYAQFadEeys8_ciQwEzRA" supplier="_3-hhYFafEeys8_ciQwEzRA"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Component" xmi:id="_tqZREFadEeys8_ciQwEzRA" name="Appointment Service">
+      <packagedElement xmi:type="uml:Component" xmi:id="_tqZREFadEeys8_ciQwEzRA" name="Appointments Service">
         <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_8qVbIFadEeys8_ciQwEzRA" client="_tqZREFadEeys8_ciQwEzRA" supplier="_itcbUFadEeys8_ciQwEzRA" contract="_itcbUFadEeys8_ciQwEzRA"/>
         <packagedElement xmi:type="uml:Usage" xmi:id="_-ns00FafEeys8_ciQwEzRA" client="_tqZREFadEeys8_ciQwEzRA" supplier="_mVGzoFafEeys8_ciQwEzRA"/>
         <packagedElement xmi:type="uml:Usage" xmi:id="_XGbYEFahEeys8_ciQwEzRA" client="_tqZREFadEeys8_ciQwEzRA" supplier="_0Uo0IFagEeys8_ciQwEzRA"/>
@@ -185,7 +212,7 @@
         </ownedParameter>
       </ownedOperation>
     </packagedElement>
-    <packagedElement xmi:type="uml:Interface" xmi:id="_SOqkoFaxEeys8_ciQwEzRA" name="GetVisits">
+    <packagedElement xmi:type="uml:Interface" xmi:id="_SOqkoFaxEeys8_ciQwEzRA" name="Get Visits">
       <ownedOperation xmi:type="uml:Operation" xmi:id="_d4i8YFayEeys8_ciQwEzRA" name="getVisitationHistory">
         <ownedParameter xmi:type="uml:Parameter" xmi:id="_jKmr4FayEeys8_ciQwEzRA" name="Visits" type="_iWSsUFatEeys8_ciQwEzRA" direction="return" effect="read"/>
         <ownedParameter xmi:type="uml:Parameter" xmi:id="_nkgrYFayEeys8_ciQwEzRA" name="CrownPassID" effect="read">

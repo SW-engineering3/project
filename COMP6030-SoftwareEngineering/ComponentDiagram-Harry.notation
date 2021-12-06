@@ -231,7 +231,7 @@
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0VOqDlagEeys8_ciQwEzRA"/>
             </children>
             <element xmi:type="uml:Interface" href="ComponentDiagram-Harry.uml#_0Uo0IFagEeys8_ciQwEzRA"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0VOqAVagEeys8_ciQwEzRA" x="58" y="521" width="321" height="121"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0VOqAVagEeys8_ciQwEzRA" x="58" y="521" width="501" height="121"/>
           </children>
           <styles xmi:type="notation:TitleStyle" xmi:id="_1vxSNlacEeys8_ciQwEzRA"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1vxSN1acEeys8_ciQwEzRA"/>
@@ -600,7 +600,7 @@
     <element xmi:type="uml:InterfaceRealization" href="ComponentDiagram-Harry.uml#_3GXU4FagEeys8_ciQwEzRA"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_3GyyslagEeys8_ciQwEzRA" points="[760, 540, -643984, -643984]$[760, 580, -643984, -643984]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3H4-4FagEeys8_ciQwEzRA" id="(0.5809128630705395,0.9876543209876543)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3H4-4VagEeys8_ciQwEzRA" id="(0.37383177570093457,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3H4-4VagEeys8_ciQwEzRA" id="(0.23952095808383234,0.0)"/>
   </edges>
   <edges xmi:type="notation:Connector" xmi:id="_XGoMYFahEeys8_ciQwEzRA" type="Usage_Edge" source="_tqsMAFadEeys8_ciQwEzRA" target="_0VOqAFagEeys8_ciQwEzRA">
     <children xmi:type="notation:DecorationNode" xmi:id="_XGoMY1ahEeys8_ciQwEzRA" type="Usage_NameLabel">
@@ -615,7 +615,7 @@
     <element xmi:type="uml:Usage" href="ComponentDiagram-Harry.uml#_XGbYEFahEeys8_ciQwEzRA"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XGoMYlahEeys8_ciQwEzRA" points="[1405, 670, -643984, -643984]$[1405, 631, -643984, -643984]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XHV-EFahEeys8_ciQwEzRA" id="(0.5809128630705395,0.0)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XHWlIFahEeys8_ciQwEzRA" id="(0.37383177570093457,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XHWlIFahEeys8_ciQwEzRA" id="(0.23952095808383234,0.9917355371900827)"/>
   </edges>
   <edges xmi:type="notation:Connector" xmi:id="_5XPD8FajEeys8_ciQwEzRA" type="Usage_Edge" source="_2KiecFajEeys8_ciQwEzRA" target="_bUHdUFadEeys8_ciQwEzRA" routing="Rectilinear">
     <children xmi:type="notation:DecorationNode" xmi:id="_5XPD81ajEeys8_ciQwEzRA" type="Usage_NameLabel">
@@ -826,13 +826,13 @@
       <layoutConstraint xmi:type="notation:Location" xmi:id="_FYFeVFayEeys8_ciQwEzRA" y="60"/>
     </children>
     <children xmi:type="notation:DecorationNode" xmi:id="_FYFeVVayEeys8_ciQwEzRA" type="Usage_StereotypeLabel">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_FYFeVlayEeys8_ciQwEzRA" x="-172" y="65"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_FYFeVlayEeys8_ciQwEzRA" x="-152" y="105"/>
     </children>
     <styles xmi:type="notation:FontStyle" xmi:id="_FYFeUVayEeys8_ciQwEzRA"/>
     <element xmi:type="uml:Usage" href="ComponentDiagram-Harry.uml#_FXoyYFayEeys8_ciQwEzRA"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_FYFeUlayEeys8_ciQwEzRA" points="[860, 140, -643984, -643984]$[940, 580, -643984, -643984]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_FYFeUlayEeys8_ciQwEzRA" points="[860, 140, -643984, -643984]$[980, 140, -643984, -643984]$[980, 580, -643984, -643984]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FY4vkFayEeys8_ciQwEzRA" id="(0.995850622406639,0.7407407407407407)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FY4vkVayEeys8_ciQwEzRA" id="(0.9345794392523364,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FY4vkVayEeys8_ciQwEzRA" id="(0.6786427145708582,0.0)"/>
   </edges>
   <edges xmi:type="notation:Connector" xmi:id="_JSrroFayEeys8_ciQwEzRA" type="Usage_Edge" source="_n-yZIFadEeys8_ciQwEzRA" target="_3_E7AFafEeys8_ciQwEzRA">
     <children xmi:type="notation:DecorationNode" xmi:id="_JSrro1ayEeys8_ciQwEzRA" type="Usage_NameLabel">
