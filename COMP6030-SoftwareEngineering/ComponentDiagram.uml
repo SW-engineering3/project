@@ -15,12 +15,18 @@
       <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_A5wzgFQuEeykwq5R-H2-iA" client="_lMa9oEoEEeyzQ5mwk6lZBw" supplier="_v6vtoFQtEeykwq5R-H2-iA" contract="_v6vtoFQtEeykwq5R-H2-iA"/>
       <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_2tNOAFQvEeykwq5R-H2-iA" client="_lMa9oEoEEeyzQ5mwk6lZBw" supplier="_ubLtcFQvEeykwq5R-H2-iA" contract="_ubLtcFQvEeykwq5R-H2-iA"/>
       <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_1faDgFazEeys8_ciQwEzRA" client="_lMa9oEoEEeyzQ5mwk6lZBw" supplier="_vu8gwFazEeys8_ciQwEzRA" contract="_vu8gwFazEeys8_ciQwEzRA"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_sLFLoFdnEeys8_ciQwEzRA" client="_lMa9oEoEEeyzQ5mwk6lZBw" supplier="_kXCnkFdnEeys8_ciQwEzRA" contract="_kXCnkFdnEeys8_ciQwEzRA"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_tVtLsFdnEeys8_ciQwEzRA" client="_lMa9oEoEEeyzQ5mwk6lZBw" supplier="_lrq4MFdnEeys8_ciQwEzRA" contract="_lrq4MFdnEeys8_ciQwEzRA"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_udnO8FdnEeys8_ciQwEzRA" client="_lMa9oEoEEeyzQ5mwk6lZBw" supplier="_mkMboFdnEeys8_ciQwEzRA" contract="_mkMboFdnEeys8_ciQwEzRA"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Component" xmi:id="_1fzQEEoFEeyzQ5mwk6lZBw" name="CrownPass Owner App">
       <packagedElement xmi:type="uml:Usage" xmi:id="_-kkL0FQvEeykwq5R-H2-iA" client="_1fzQEEoFEeyzQ5mwk6lZBw" supplier="_ubLtcFQvEeykwq5R-H2-iA"/>
       <packagedElement xmi:type="uml:Usage" xmi:id="_eT5EUFQwEeykwq5R-H2-iA" client="_1fzQEEoFEeyzQ5mwk6lZBw" supplier="_aBMZsFQoEeykwq5R-H2-iA"/>
       <packagedElement xmi:type="uml:Usage" xmi:id="_y1tlwFQ0Eeykwq5R-H2-iA" client="_1fzQEEoFEeyzQ5mwk6lZBw" supplier="_dQRPsFQmEeykwq5R-H2-iA"/>
       <packagedElement xmi:type="uml:Usage" xmi:id="_0MhnsFQ0Eeykwq5R-H2-iA" client="_1fzQEEoFEeyzQ5mwk6lZBw" supplier="_j3XDAFQnEeykwq5R-H2-iA"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_pKMNgFdnEeys8_ciQwEzRA" client="_1fzQEEoFEeyzQ5mwk6lZBw" supplier="_kXCnkFdnEeys8_ciQwEzRA"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_p8DvUFdnEeys8_ciQwEzRA" client="_1fzQEEoFEeyzQ5mwk6lZBw" supplier="_lrq4MFdnEeys8_ciQwEzRA"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_qytDcFdnEeys8_ciQwEzRA" client="_1fzQEEoFEeyzQ5mwk6lZBw" supplier="_mkMboFdnEeys8_ciQwEzRA"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Component" xmi:id="_A-8M4EoGEeyzQ5mwk6lZBw" name="CrownPass Holder App">
       <packagedElement xmi:type="uml:Usage" xmi:id="_nKSo0FQmEeykwq5R-H2-iA" client="_A-8M4EoGEeyzQ5mwk6lZBw" supplier="_dQRPsFQmEeykwq5R-H2-iA"/>
@@ -50,5 +56,8 @@
     <packagedElement xmi:type="uml:Interface" xmi:id="_v6vtoFQtEeykwq5R-H2-iA" name="Manage Vaccination Status"/>
     <packagedElement xmi:type="uml:Interface" xmi:id="_ubLtcFQvEeykwq5R-H2-iA" name="Manage Area"/>
     <packagedElement xmi:type="uml:Interface" xmi:id="_vu8gwFazEeys8_ciQwEzRA" name="Get Visits"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_kXCnkFdnEeys8_ciQwEzRA" name="Register"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_lrq4MFdnEeys8_ciQwEzRA" name="Manage Entry Condition"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_mkMboFdnEeys8_ciQwEzRA" name="Manage Staff Accounts"/>
   </packagedElement>
 </uml:Model>
