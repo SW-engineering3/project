@@ -169,6 +169,7 @@
         <ownedOperation xmi:type="uml:Operation" xmi:id="_RsKMkEyBEeyOS-iif2v_qg" name="get areaID"/>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_ayvWkEyBEeyOS-iif2v_qg" name="get AreaAddress"/>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_pgJwwEyCEeyOS-iif2v_qg" name="get controlledAreaInfo"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_U9O-sFboEeyIbpXQ5iGnkQ" name="ControlledArea()"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_flWOAEuREeyB06Vy3aRmYg" name="Area Owner">
         <generalization xmi:type="uml:Generalization" xmi:id="_OwUB8FEgEeycLdL2yFJ7mg" general="_cxm50FEdEeycLdL2yFJ7mg"/>
@@ -204,6 +205,7 @@
         <ownedOperation xmi:type="uml:Operation" xmi:id="_gAhlgFEgEeycLdL2yFJ7mg" name="set StaffAccount()"/>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_jg8_UFEgEeycLdL2yFJ7mg" name="View operationState()"/>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_lwjqcFEgEeycLdL2yFJ7mg" name="set EntryCondiiton()"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_Zw3s0FboEeyIbpXQ5iGnkQ" name="AreaOwner()"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_AmbCQEuSEeyB06Vy3aRmYg" name="Address">
         <ownedAttribute xmi:type="uml:Property" xmi:id="_JvfwQFEcEeycLdL2yFJ7mg" name="PostCode" isUnique="false">
@@ -228,6 +230,8 @@
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3EvkgFEfEeycLdL2yFJ7mg" value="*"/>
         </ownedAttribute>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_fYstUFEcEeycLdL2yFJ7mg" name="get areaAddress()"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_YRzGwFboEeyIbpXQ5iGnkQ" name="Address()"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_l3sUsFboEeyIbpXQ5iGnkQ" name="set AreaAddress()"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Enumeration" xmi:id="_J24kMEuWEeyB06Vy3aRmYg" name="infection colour">
         <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_MC7lAEuWEeyB06Vy3aRmYg" name="Green"/>
@@ -273,6 +277,7 @@
           <type xmi:type="uml:DataType" href="file:/Users/gregoryngaruiya/eclipse-workspace/project/COMP6030-SoftwareEngineering/StructuralModel-Harry.uml#_ISFAYESBEey0h838tHFP-w"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2_xsUVEcEeycLdL2yFJ7mg" value="*"/>
         </ownedAttribute>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_bX0cgFboEeyIbpXQ5iGnkQ" name="ContactDetails()"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_cxm50FEdEeycLdL2yFJ7mg" name="Crownpass Holder">
         <ownedAttribute xmi:type="uml:Property" xmi:id="_6u6fIFUPEeyhjfhUBiQilA" name="Password">
