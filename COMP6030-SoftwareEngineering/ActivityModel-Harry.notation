@@ -443,7 +443,7 @@
           <layoutConstraint xmi:type="notation:Location" xmi:id="_2Fg8FFHjEeykwq5R-H2-iA" y="15"/>
         </children>
         <element xmi:type="uml:CentralBufferNode" href="ActivityModel-Harry.uml#_2B_G8FHjEeykwq5R-H2-iA"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2FXLEVHjEeykwq5R-H2-iA" x="550" y="608" width="140" height="120"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2FXLEVHjEeykwq5R-H2-iA" x="550" y="608" width="140" height="102"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_jPZ8QFHkEeykwq5R-H2-iA" type="CentralBufferNode_Shape">
         <children xmi:type="notation:DecorationNode" xmi:id="_jPZ8QlHkEeykwq5R-H2-iA" type="CentralBufferNode_NameLabel"/>
