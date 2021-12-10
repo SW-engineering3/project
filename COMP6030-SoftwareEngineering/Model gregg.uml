@@ -971,9 +971,9 @@
       <message xmi:type="uml:Message" xmi:id="_-yGXgEyaEeyOS-iif2v_qg" name="HTTP response" messageSort="reply" receiveEvent="_-yHloEyaEeyOS-iif2v_qg" sendEvent="_-yG-kEyaEeyOS-iif2v_qg"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Component" xmi:id="_7bACEFB6Eey9k-srGIOcBQ" name="owner of controlled area">
-      <nestedClassifier xmi:type="uml:Interface" xmi:id="_-FWZYFCDEey9k-srGIOcBQ" name="AreaID"/>
+      <nestedClassifier xmi:type="uml:Interface" xmi:id="_-FWZYFCDEey9k-srGIOcBQ" name="controlled area"/>
       <nestedClassifier xmi:type="uml:Interface" xmi:id="_fOwDMFCEEey9k-srGIOcBQ" name="crownpass data"/>
-      <nestedClassifier xmi:type="uml:Interface" xmi:id="_pBJxYFCEEey9k-srGIOcBQ" name="StaffID"/>
+      <nestedClassifier xmi:type="uml:Interface" xmi:id="_pBJxYFCEEey9k-srGIOcBQ" name="area owner"/>
       <nestedClassifier xmi:type="uml:Interface" xmi:id="_lrwTkFduEeyRC_If6Uu5HQ" name="login">
         <ownedOperation xmi:type="uml:Operation" xmi:id="_wpfMcFduEeyRC_If6Uu5HQ" name="loginStaff">
           <ownedParameter xmi:type="uml:Parameter" xmi:id="_3s1TYFduEeyRC_If6Uu5HQ" name="loginStaff" type="_pBJxYFCEEey9k-srGIOcBQ"/>
@@ -1024,7 +1024,7 @@
       <ownedReception xmi:type="uml:Reception" xmi:id="_tWfeIFB9Eey9k-srGIOcBQ" name="Reception2"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_sLVSkFB9Eey9k-srGIOcBQ" name="Operation1"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Component" xmi:id="_PT3ikFB-Eey9k-srGIOcBQ" name="Crowpass system saas">
+    <packagedElement xmi:type="uml:Component" xmi:id="_PT3ikFB-Eey9k-srGIOcBQ" name="s">
       <nestedClassifier xmi:type="uml:Interface" xmi:id="_Zuf0wFCGEey9k-srGIOcBQ" name="Add new area"/>
       <nestedClassifier xmi:type="uml:Interface" xmi:id="_XBMrkFCHEey9k-srGIOcBQ" name="Update registration info"/>
       <nestedClassifier xmi:type="uml:Interface" xmi:id="_lgSyYFCHEey9k-srGIOcBQ" name="Set areaID"/>
@@ -1090,7 +1090,7 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Interface" xmi:id="_s6hkwFCGEey9k-srGIOcBQ" name="registration info"/>
     <packagedElement xmi:type="uml:Interface" xmi:id="_0MhywFCGEey9k-srGIOcBQ" name="Login"/>
-    <packagedElement xmi:type="uml:Interface" xmi:id="_S7_7UFCIEey9k-srGIOcBQ" name="View notifications"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_S7_7UFCIEey9k-srGIOcBQ" name="get notifications"/>
     <packagedElement xmi:type="uml:Interface" xmi:id="_0u_UsFCIEey9k-srGIOcBQ" name="setup staff account"/>
     <packagedElement xmi:type="uml:Interface" xmi:id="_w3OuEFCKEey9k-srGIOcBQ" name="check number of customers"/>
     <packagedElement xmi:type="uml:Interface" xmi:id="_2V_AUFCLEey9k-srGIOcBQ" name="set condition"/>
